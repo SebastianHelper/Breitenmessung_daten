@@ -1,0 +1,4 @@
+# Raw 100 Hz sensor CSVs are large (single runs exceed GitHub's 100 MB limit).
+# Kept on the SSD archive only — never pushed to GitHub.
+**/raw/
+sensor_data*.csv
