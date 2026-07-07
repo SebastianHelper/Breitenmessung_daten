@@ -1,0 +1,4609 @@
+{
+  "block_id": "2026-07-07_B_16-01-37-156",
+  "block_type": "I2",
+  "start_timestamp": 1783432893.1167748,
+  "end_timestamp": 1783432897.1275651,
+  "faulty": false,
+  "sort_out": false,
+  "width": 203.59478406227075,
+  "width_baseline_fit": 203.78571117323852,
+  "width_max": 203.78816715258216,
+  "width_average": 203.69024761775464,
+  "width_whole_stone_fit": 203.62903331044976,
+  "width_method": "trimmed_mean",
+  "width_active": 203.59478406227075,
+  "min_width": 203.39676285714287,
+  "max_width": 203.79493846153844,
+  "plan_parallelity": 0.16723697892271616,
+  "sort_out_recommended": true,
+  "sort_out_reasons": [
+    "subregion width out of tolerance"
+  ],
+  "tilt_correction": {
+    "static_pair_1_mm": 0.0,
+    "static_pair_2_mm": 0.0
+  },
+  "warnings": [
+    {
+      "timestamp": 1783432895.1007879,
+      "level": "warning",
+      "message": "hole on s1 in region 1980: length=3.8 mm, max_deviation=1.86 mm",
+      "region_ids": [
+        1980
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432895.1008046,
+      "level": "warning",
+      "message": "hole on s1 in region 1980: length=2.6 mm, max_deviation=5.68 mm",
+      "region_ids": [
+        1980
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432895.1008089,
+      "level": "warning",
+      "message": "hole on s2 in region 1980: length=4.6 mm, max_deviation=2.69 mm",
+      "region_ids": [
+        1980
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432895.1008132,
+      "level": "warning",
+      "message": "hole on s2 in region 1980: length=7.2 mm, max_deviation=3.55 mm",
+      "region_ids": [
+        1980
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432895.1008167,
+      "level": "warning",
+      "message": "hole on s3 in region 1980: length=2.6 mm, max_deviation=1.71 mm",
+      "region_ids": [
+        1980
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432895.1008203,
+      "level": "warning",
+      "message": "hole on s4 in region 1980: length=4.6 mm, max_deviation=14.16 mm",
+      "region_ids": [
+        1980
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432897.1566768,
+      "level": "warning",
+      "message": "hole on s1 in region 1982: length=4.0 mm, max_deviation=1.20 mm",
+      "region_ids": [
+        1982
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432897.1567087,
+      "level": "warning",
+      "message": "hole on s2 in region 1982: length=3.3 mm, max_deviation=5.30 mm",
+      "region_ids": [
+        1982
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432897.1567137,
+      "level": "warning",
+      "message": "hole on s2 in region 1982: length=3.2 mm, max_deviation=0.66 mm",
+      "region_ids": [
+        1982
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432897.1567178,
+      "level": "warning",
+      "message": "hole on s2 in region 1982: length=4.6 mm, max_deviation=9.00 mm",
+      "region_ids": [
+        1982
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    },
+    {
+      "timestamp": 1783432897.1567218,
+      "level": "warning",
+      "message": "hole on s3 in region 1982: length=3.2 mm, max_deviation=14.35 mm",
+      "region_ids": [
+        1982
+      ],
+      "block_id": null,
+      "source": "analyzer.enrichment.hole"
+    }
+  ],
+  "whole_stone_fits": [
+    {
+      "sensor": "s1",
+      "slope": 0.005458478359692799,
+      "intercept": -1288.7342084943493,
+      "start_position_mm": 235900.656484483,
+      "end_position_mm": 236151.05841374333
+    },
+    {
+      "sensor": "s2",
+      "slope": -0.0049939957921954084,
+      "intercept": 1182.5574747995852,
+      "start_position_mm": 235902.5321543651,
+      "end_position_mm": 236149.74520091197
+    },
+    {
+      "sensor": "s3",
+      "slope": 0.0037913313723028862,
+      "intercept": -895.4946268131546,
+      "start_position_mm": 235899.33686410106,
+      "end_position_mm": 236151.05841374333
+    },
+    {
+      "sensor": "s4",
+      "slope": -0.004101931475320068,
+      "intercept": 972.1466351802306,
+      "start_position_mm": 235899.33686410106,
+      "end_position_mm": 236151.05841374333
+    }
+  ],
+  "regions": [
+    {
+      "region_id": 1980,
+      "region_type": "R",
+      "region_length": 127.86379912370467,
+      "start_position_mm": 235894.86818125797,
+      "end_position_mm": 236022.73198038168,
+      "start_timestamp": 1783432893.1167748,
+      "end_timestamp": 1783432895.0768597,
+      "packet_count": 197,
+      "block_separator": "left",
+      "calibration_values": {
+        "pair_1": {
+          "calibrated": true,
+          "sensor_a_cal": 2.80694,
+          "sensor_b_cal": -2.9928399999999997
+        },
+        "pair_2": {
+          "calibrated": true,
+          "sensor_a_cal": 2.69604,
+          "sensor_b_cal": -2.9726600000000003
+        }
+      },
+      "holes": [
+        {
+          "sensor": "s1",
+          "start_index": 1,
+          "end_index": 8,
+          "length_mm": 3.8124593216343783,
+          "max_deviation_mm": 1.862924509797899,
+          "median_deviation_mm": 0.5531953117368926
+        },
+        {
+          "sensor": "s1",
+          "start_index": 186,
+          "end_index": 190,
+          "length_mm": 2.635732616938185,
+          "max_deviation_mm": 5.683692823088465,
+          "median_deviation_mm": 3.328727349021847
+        },
+        {
+          "sensor": "s2",
+          "start_index": 6,
+          "end_index": 12,
+          "length_mm": 4.585005823901156,
+          "max_deviation_mm": 2.690781973663179,
+          "median_deviation_mm": 1.2853631953543756
+        },
+        {
+          "sensor": "s2",
+          "start_index": 185,
+          "end_index": 195,
+          "length_mm": 7.246600012265844,
+          "max_deviation_mm": 3.552836141153188,
+          "median_deviation_mm": 0.5552549302909751
+        },
+        {
+          "sensor": "s3",
+          "start_index": 186,
+          "end_index": 189,
+          "length_mm": 2.635732616938185,
+          "max_deviation_mm": 1.7142818176901367,
+          "median_deviation_mm": 1.3653501201802878
+        },
+        {
+          "sensor": "s4",
+          "start_index": 190,
+          "end_index": 196,
+          "length_mm": 4.6227407194674015,
+          "max_deviation_mm": 14.157056217359122,
+          "median_deviation_mm": 1.5735830242250102
+        }
+      ],
+      "baseline_fits": [
+        {
+          "sensor": "s1",
+          "half_index": 0,
+          "slope": 0.0014175351580534372,
+          "intercept": -335.22227496142955,
+          "start_index": 0,
+          "end_index": 197
+        },
+        {
+          "sensor": "s2",
+          "half_index": 0,
+          "slope": 0.0006052430104130978,
+          "intercept": -138.56686029374018,
+          "start_index": 0,
+          "end_index": 197
+        },
+        {
+          "sensor": "s3",
+          "half_index": 0,
+          "slope": 0.002380189403455384,
+          "intercept": -562.5355208181292,
+          "start_index": 0,
+          "end_index": 197
+        },
+        {
+          "sensor": "s4",
+          "half_index": 0,
+          "slope": -0.00752242404805733,
+          "intercept": 1779.2450055956454,
+          "start_index": 0,
+          "end_index": 197
+        }
+      ],
+      "width_fits": [
+        {
+          "sensor": "s1",
+          "half_index": 0,
+          "slope": 0.0019320673306439822,
+          "intercept": -456.542877483233,
+          "start_index": 0,
+          "end_index": 197
+        },
+        {
+          "sensor": "s2",
+          "half_index": 0,
+          "slope": 0.003155828035259742,
+          "intercept": -740.3251668115882,
+          "start_index": 0,
+          "end_index": 197
+        },
+        {
+          "sensor": "s3",
+          "half_index": 0,
+          "slope": 0.0025260513914571463,
+          "intercept": -596.9278214475324,
+          "start_index": 0,
+          "end_index": 197
+        },
+        {
+          "sensor": "s4",
+          "half_index": 0,
+          "slope": -0.007373153987520621,
+          "intercept": 1744.044456828034,
+          "start_index": 0,
+          "end_index": 197
+        }
+      ],
+      "subregions": [
+        {
+          "slot": 1,
+          "pair": 1,
+          "start_index": 8,
+          "end_index": 69,
+          "trimmed_mean_width": 203.61479285714287,
+          "baseline_fit_width": 203.64969656745666,
+          "whole_stone_fit_width": 203.58948885448905
+        },
+        {
+          "slot": 1,
+          "pair": 2,
+          "start_index": 8,
+          "end_index": 69,
+          "trimmed_mean_width": 203.7820298360656,
+          "baseline_fit_width": 203.86903493935142,
+          "whole_stone_fit_width": 203.65212273665713
+        },
+        {
+          "slot": 2,
+          "pair": 1,
+          "start_index": 69,
+          "end_index": 130,
+          "trimmed_mean_width": 203.5713918032787,
+          "baseline_fit_width": 203.85174521470748,
+          "whole_stone_fit_width": 203.60793421699856
+        },
+        {
+          "slot": 2,
+          "pair": 2,
+          "start_index": 69,
+          "end_index": 130,
+          "trimmed_mean_width": 203.60358721311476,
+          "baseline_fit_width": 203.6765485668559,
+          "whole_stone_fit_width": 203.63978829851771
+        },
+        {
+          "slot": 3,
+          "pair": 1,
+          "start_index": 130,
+          "end_index": 191,
+          "trimmed_mean_width": 203.62506363636365,
+          "baseline_fit_width": 204.05474335024178,
+          "whole_stone_fit_width": 203.6264662598981
+        },
+        {
+          "slot": 3,
+          "pair": 2,
+          "start_index": 130,
+          "end_index": 191,
+          "trimmed_mean_width": 203.39676285714287,
+          "baseline_fit_width": 203.4831576421252,
+          "whole_stone_fit_width": 203.62739589708747
+        }
+      ],
+      "packets": [
+        {
+          "timestamp": 1783432893.1167748,
+          "s1": null,
+          "s2": null,
+          "s3": -2.739,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 235894.86818125797
+        },
+        {
+          "timestamp": 1783432893.1267447,
+          "s1": -2.695,
+          "s2": null,
+          "s3": -1.409,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 235895.52440477943
+        },
+        {
+          "timestamp": 1783432893.1367416,
+          "s1": -2.406,
+          "s2": null,
+          "s3": -1.335,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 235896.168274408
+        },
+        {
+          "timestamp": 1783432893.1480403,
+          "s1": -1.728,
+          "s2": null,
+          "s3": -1.322,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 235896.82367053442
+        },
+        {
+          "timestamp": 1783432893.1573997,
+          "s1": -1.429,
+          "s2": null,
+          "s3": -1.297,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 235897.47906666083
+        },
+        {
+          "timestamp": 1783432893.1669443,
+          "s1": -1.336,
+          "s2": null,
+          "s3": -1.233,
+          "s4": 2.049,
+          "width_1": null,
+          "width_2": 201.09262,
+          "conveyor_position_mm": 235897.47906666083
+        },
+        {
+          "timestamp": 1783432893.1767936,
+          "s1": -1.264,
+          "s2": 1.518,
+          "s3": -1.16,
+          "s4": 3.594,
+          "width_1": 200.4399,
+          "width_2": 202.71062,
+          "conveyor_position_mm": 235898.04394429008
+        },
+        {
+          "timestamp": 1783432893.1868114,
+          "s1": -1.265,
+          "s2": 1.815,
+          "s3": -1.176,
+          "s4": 4.134,
+          "width_1": 200.7359,
+          "width_2": 203.23462,
+          "conveyor_position_mm": 235898.69040419557
+        },
+        {
+          "timestamp": 1783432893.1969168,
+          "s1": -1.268,
+          "s2": 2.282,
+          "s3": -1.188,
+          "s4": 4.482,
+          "width_1": 201.1999,
+          "width_2": 203.57062,
+          "conveyor_position_mm": 235899.33686410106
+        },
+        {
+          "timestamp": 1783432893.2068014,
+          "s1": -1.215,
+          "s2": 2.925,
+          "s3": -1.139,
+          "s4": 4.504,
+          "width_1": 201.8959,
+          "width_2": 203.64162000000002,
+          "conveyor_position_mm": 235900.656484483
+        },
+        {
+          "timestamp": 1783432893.216758,
+          "s1": -1.18,
+          "s2": 3.253,
+          "s3": -1.144,
+          "s4": 4.546,
+          "width_1": 202.25889999999998,
+          "width_2": 203.67862000000002,
+          "conveyor_position_mm": 235901.31397302667
+        },
+        {
+          "timestamp": 1783432893.2267704,
+          "s1": -1.184,
+          "s2": 3.5,
+          "s3": -1.166,
+          "s4": 4.625,
+          "width_1": 202.5019,
+          "width_2": 203.73561999999998,
+          "conveyor_position_mm": 235901.97146157033
+        },
+        {
+          "timestamp": 1783432893.2367842,
+          "s1": -1.178,
+          "s2": 3.751,
+          "s3": -1.158,
+          "s4": 4.641,
+          "width_1": 202.7589,
+          "width_2": 203.75962,
+          "conveyor_position_mm": 235902.62895011398
+        },
+        {
+          "timestamp": 1783432893.2467756,
+          "s1": -1.116,
+          "s2": 3.978,
+          "s3": -1.089,
+          "s4": 4.536,
+          "width_1": 203.0479,
+          "width_2": 203.72361999999998,
+          "conveyor_position_mm": 235902.5321543651
+        },
+        {
+          "timestamp": 1783432893.2567742,
+          "s1": -1.083,
+          "s2": 4.095,
+          "s3": -1.056,
+          "s4": 4.506,
+          "width_1": 203.1979,
+          "width_2": 203.72662,
+          "conveyor_position_mm": 235903.18056182796
+        },
+        {
+          "timestamp": 1783432893.2667923,
+          "s1": -1.168,
+          "s2": 4.279,
+          "s3": -1.13,
+          "s4": 4.63,
+          "width_1": 203.2969,
+          "width_2": 203.77661999999998,
+          "conveyor_position_mm": 235903.82896929083
+        },
+        {
+          "timestamp": 1783432893.2768364,
+          "s1": -1.211,
+          "s2": 4.33,
+          "s3": -1.166,
+          "s4": 4.683,
+          "width_1": 203.30489999999998,
+          "width_2": 203.79362,
+          "conveyor_position_mm": 235905.144694558
+        },
+        {
+          "timestamp": 1783432893.2867997,
+          "s1": -1.252,
+          "s2": 4.306,
+          "s3": -1.104,
+          "s4": 4.626,
+          "width_1": 203.2399,
+          "width_2": 203.79862,
+          "conveyor_position_mm": 235905.80306353478
+        },
+        {
+          "timestamp": 1783432893.296826,
+          "s1": -1.244,
+          "s2": 4.217,
+          "s3": -1.05,
+          "s4": 4.59,
+          "width_1": 203.15890000000002,
+          "width_2": 203.81662,
+          "conveyor_position_mm": 235906.46143251157
+        },
+        {
+          "timestamp": 1783432893.3068514,
+          "s1": -1.138,
+          "s2": 4.237,
+          "s3": -1.084,
+          "s4": 4.671,
+          "width_1": 203.2849,
+          "width_2": 203.86362,
+          "conveyor_position_mm": 235907.11980148836
+        },
+        {
+          "timestamp": 1783432893.3168364,
+          "s1": -1.048,
+          "s2": 4.283,
+          "s3": -1.119,
+          "s4": 4.708,
+          "width_1": 203.4209,
+          "width_2": 203.86561999999998,
+          "conveyor_position_mm": 235907.75723475096
+        },
+        {
+          "timestamp": 1783432893.3269393,
+          "s1": -0.954,
+          "s2": 4.263,
+          "s3": -1.091,
+          "s4": 4.615,
+          "width_1": 203.4949,
+          "width_2": 203.80062,
+          "conveyor_position_mm": 235908.4147916821
+        },
+        {
+          "timestamp": 1783432893.3368633,
+          "s1": -0.911,
+          "s2": 4.215,
+          "s3": -1.043,
+          "s4": 4.544,
+          "width_1": 203.4899,
+          "width_2": 203.77762,
+          "conveyor_position_mm": 235909.07234861323
+        },
+        {
+          "timestamp": 1783432893.3468184,
+          "s1": -0.928,
+          "s2": 4.215,
+          "s3": -1.061,
+          "s4": 4.645,
+          "width_1": 203.4729,
+          "width_2": 203.86062,
+          "conveyor_position_mm": 235909.69989284314
+        },
+        {
+          "timestamp": 1783432893.356831,
+          "s1": -0.924,
+          "s2": 4.209,
+          "s3": -1.099,
+          "s4": 4.715,
+          "width_1": 203.4709,
+          "width_2": 203.89262,
+          "conveyor_position_mm": 235910.35763973798
+        },
+        {
+          "timestamp": 1783432893.3669617,
+          "s1": -0.839,
+          "s2": 4.13,
+          "s3": -1.07,
+          "s4": 4.678,
+          "width_1": 203.4769,
+          "width_2": 203.88461999999998,
+          "conveyor_position_mm": 235911.01538663282
+        },
+        {
+          "timestamp": 1783432893.3768601,
+          "s1": -0.814,
+          "s2": 4.083,
+          "s3": -1.011,
+          "s4": 4.61,
+          "width_1": 203.4549,
+          "width_2": 203.87562,
+          "conveyor_position_mm": 235911.01538663282
+        },
+        {
+          "timestamp": 1783432893.3868291,
+          "s1": -0.863,
+          "s2": 4.138,
+          "s3": -1.03,
+          "s4": 4.634,
+          "width_1": 203.4609,
+          "width_2": 203.88062,
+          "conveyor_position_mm": 235912.245444826
+        },
+        {
+          "timestamp": 1783432893.3975124,
+          "s1": -0.881,
+          "s2": 4.191,
+          "s3": -1.07,
+          "s4": 4.714,
+          "width_1": 203.4959,
+          "width_2": 203.92061999999999,
+          "conveyor_position_mm": 235912.90187793295
+        },
+        {
+          "timestamp": 1783432893.4069645,
+          "s1": -0.775,
+          "s2": 4.18,
+          "s3": -1.012,
+          "s4": 4.694,
+          "width_1": 203.5909,
+          "width_2": 203.95862,
+          "conveyor_position_mm": 235913.5583110399
+        },
+        {
+          "timestamp": 1783432893.416931,
+          "s1": -0.701,
+          "s2": 4.153,
+          "s3": -0.962,
+          "s4": 4.606,
+          "width_1": 203.6379,
+          "width_2": 203.92062,
+          "conveyor_position_mm": 235914.18810291818
+        },
+        {
+          "timestamp": 1783432893.4268043,
+          "s1": -0.699,
+          "s2": 4.15,
+          "s3": -0.977,
+          "s4": 4.585,
+          "width_1": 203.6369,
+          "width_2": 203.88462,
+          "conveyor_position_mm": 235914.8445816878
+        },
+        {
+          "timestamp": 1783432893.4368489,
+          "s1": -0.723,
+          "s2": 4.186,
+          "s3": -1.031,
+          "s4": 4.658,
+          "width_1": 203.6489,
+          "width_2": 203.90362000000002,
+          "conveyor_position_mm": 235915.5010604574
+        },
+        {
+          "timestamp": 1783432893.4468298,
+          "s1": -0.68,
+          "s2": 4.189,
+          "s3": -0.981,
+          "s4": 4.612,
+          "width_1": 203.6949,
+          "width_2": 203.90762,
+          "conveyor_position_mm": 235916.15753922702
+        },
+        {
+          "timestamp": 1783432893.4568324,
+          "s1": -0.615,
+          "s2": 4.132,
+          "s3": -0.913,
+          "s4": 4.466,
+          "width_1": 203.7029,
+          "width_2": 203.82962,
+          "conveyor_position_mm": 235916.80064311108
+        },
+        {
+          "timestamp": 1783432893.4667816,
+          "s1": -0.628,
+          "s2": 4.128,
+          "s3": -0.968,
+          "s4": 4.473,
+          "width_1": 203.68589999999998,
+          "width_2": 203.78162,
+          "conveyor_position_mm": 235917.4569298696
+        },
+        {
+          "timestamp": 1783432893.4768448,
+          "s1": -0.655,
+          "s2": 4.164,
+          "s3": -1.058,
+          "s4": 4.495,
+          "width_1": 203.6949,
+          "width_2": 203.71362,
+          "conveyor_position_mm": 235918.11321662812
+        },
+        {
+          "timestamp": 1783432893.4868195,
+          "s1": -0.62,
+          "s2": 4.149,
+          "s3": -1.0,
+          "s4": 4.367,
+          "width_1": 203.7149,
+          "width_2": 203.64362,
+          "conveyor_position_mm": 235917.47052521183
+        },
+        {
+          "timestamp": 1783432893.4967644,
+          "s1": -0.597,
+          "s2": 4.111,
+          "s3": -0.922,
+          "s4": 4.312,
+          "width_1": 203.69989999999999,
+          "width_2": 203.66662,
+          "conveyor_position_mm": 235918.74330120324
+        },
+        {
+          "timestamp": 1783432893.5067732,
+          "s1": -0.628,
+          "s2": 4.093,
+          "s3": -0.894,
+          "s4": 4.393,
+          "width_1": 203.65089999999998,
+          "width_2": 203.77562,
+          "conveyor_position_mm": 235919.41028177395
+        },
+        {
+          "timestamp": 1783432893.51798,
+          "s1": -0.635,
+          "s2": 4.148,
+          "s3": -0.913,
+          "s4": 4.529,
+          "width_1": 203.6989,
+          "width_2": 203.89262,
+          "conveyor_position_mm": 235920.07726234465
+        },
+        {
+          "timestamp": 1783432893.527989,
+          "s1": -0.583,
+          "s2": 4.163,
+          "s3": -0.858,
+          "s4": 4.509,
+          "width_1": 203.76590000000002,
+          "width_2": 203.92762000000002,
+          "conveyor_position_mm": 235921.35584139614
+        },
+        {
+          "timestamp": 1783432893.5368145,
+          "s1": -0.54,
+          "s2": 4.141,
+          "s3": -0.825,
+          "s4": 4.461,
+          "width_1": 203.7869,
+          "width_2": 203.91262,
+          "conveyor_position_mm": 235922.03245881115
+        },
+        {
+          "timestamp": 1783432893.5471463,
+          "s1": -0.584,
+          "s2": 4.132,
+          "s3": -0.948,
+          "s4": 4.531,
+          "width_1": 203.7339,
+          "width_2": 203.85962,
+          "conveyor_position_mm": 235922.70907622617
+        },
+        {
+          "timestamp": 1783432893.5568073,
+          "s1": -0.633,
+          "s2": 4.191,
+          "s3": -1.074,
+          "s4": 4.595,
+          "width_1": 203.7439,
+          "width_2": 203.79762,
+          "conveyor_position_mm": 235923.38569364118
+        },
+        {
+          "timestamp": 1783432893.5669448,
+          "s1": -0.604,
+          "s2": 4.174,
+          "s3": -1.057,
+          "s4": 4.522,
+          "width_1": 203.7559,
+          "width_2": 203.74162,
+          "conveyor_position_mm": 235923.23151127822
+        },
+        {
+          "timestamp": 1783432893.5767925,
+          "s1": -0.567,
+          "s2": 4.122,
+          "s3": -0.96,
+          "s4": 4.408,
+          "width_1": 203.74089999999998,
+          "width_2": 203.72462000000002,
+          "conveyor_position_mm": 235923.89912965996
+        },
+        {
+          "timestamp": 1783432893.5867758,
+          "s1": -0.594,
+          "s2": 4.145,
+          "s3": -0.943,
+          "s4": 4.463,
+          "width_1": 203.73690000000002,
+          "width_2": 203.79662000000002,
+          "conveyor_position_mm": 235924.5667480417
+        },
+        {
+          "timestamp": 1783432893.5967846,
+          "s1": -0.654,
+          "s2": 4.208,
+          "s3": -0.969,
+          "s4": 4.592,
+          "width_1": 203.7399,
+          "width_2": 203.89962,
+          "conveyor_position_mm": 235925.9110396812
+        },
+        {
+          "timestamp": 1783432893.606778,
+          "s1": -0.61,
+          "s2": 4.175,
+          "s3": -0.931,
+          "s4": 4.558,
+          "width_1": 203.7509,
+          "width_2": 203.90362000000002,
+          "conveyor_position_mm": 235926.59901889795
+        },
+        {
+          "timestamp": 1783432893.6167724,
+          "s1": -0.534,
+          "s2": 4.1,
+          "s3": -0.945,
+          "s4": 4.465,
+          "width_1": 203.7519,
+          "width_2": 203.79662,
+          "conveyor_position_mm": 235927.2869981147
+        },
+        {
+          "timestamp": 1783432893.6267595,
+          "s1": -0.565,
+          "s2": 4.123,
+          "s3": -1.043,
+          "s4": 4.473,
+          "width_1": 203.7439,
+          "width_2": 203.70662000000002,
+          "conveyor_position_mm": 235927.97497733144
+        },
+        {
+          "timestamp": 1783432893.638673,
+          "s1": -0.65,
+          "s2": 4.205,
+          "s3": -1.108,
+          "s4": 4.508,
+          "width_1": 203.7409,
+          "width_2": 203.67662,
+          "conveyor_position_mm": 235928.52357987416
+        },
+        {
+          "timestamp": 1783432893.6468341,
+          "s1": -0.623,
+          "s2": 4.189,
+          "s3": -1.023,
+          "s4": 4.443,
+          "width_1": 203.7519,
+          "width_2": 203.69662,
+          "conveyor_position_mm": 235929.20039938088
+        },
+        {
+          "timestamp": 1783432893.6569648,
+          "s1": -0.577,
+          "s2": 4.158,
+          "s3": -0.97,
+          "s4": 4.391,
+          "width_1": 203.7669,
+          "width_2": 203.69762,
+          "conveyor_position_mm": 235929.8772188876
+        },
+        {
+          "timestamp": 1783432893.6668074,
+          "s1": -0.576,
+          "s2": 4.204,
+          "s3": -1.025,
+          "s4": 4.44,
+          "width_1": 203.81390000000002,
+          "width_2": 203.69162,
+          "conveyor_position_mm": 235930.39924975624
+        },
+        {
+          "timestamp": 1783432893.676814,
+          "s1": -0.622,
+          "s2": 4.293,
+          "s3": -1.078,
+          "s4": 4.499,
+          "width_1": 203.8569,
+          "width_2": 203.69761999999997,
+          "conveyor_position_mm": 235931.07500643114
+        },
+        {
+          "timestamp": 1783432893.6868823,
+          "s1": -0.608,
+          "s2": 4.292,
+          "s3": -1.005,
+          "s4": 4.465,
+          "width_1": 203.8699,
+          "width_2": 203.73662,
+          "conveyor_position_mm": 235931.75076310604
+        },
+        {
+          "timestamp": 1783432893.6968193,
+          "s1": -0.572,
+          "s2": 4.227,
+          "s3": -0.944,
+          "s4": 4.411,
+          "width_1": 203.8409,
+          "width_2": 203.74362,
+          "conveyor_position_mm": 235932.42651978094
+        },
+        {
+          "timestamp": 1783432893.7068653,
+          "s1": -0.611,
+          "s2": 4.205,
+          "s3": -0.984,
+          "s4": 4.411,
+          "width_1": 203.7799,
+          "width_2": 203.70362,
+          "conveyor_position_mm": 235933.01178994917
+        },
+        {
+          "timestamp": 1783432893.7168422,
+          "s1": -0.737,
+          "s2": 4.205,
+          "s3": -1.11,
+          "s4": 4.506,
+          "width_1": 203.65390000000002,
+          "width_2": 203.67262,
+          "conveyor_position_mm": 235933.6889542736
+        },
+        {
+          "timestamp": 1783432893.7267535,
+          "s1": -0.711,
+          "s2": 4.181,
+          "s3": -1.063,
+          "s4": 4.481,
+          "width_1": 203.6559,
+          "width_2": 203.69462000000001,
+          "conveyor_position_mm": 235934.366118598
+        },
+        {
+          "timestamp": 1783432893.7367365,
+          "s1": -0.661,
+          "s2": 4.122,
+          "s3": -0.963,
+          "s4": 4.418,
+          "width_1": 203.6469,
+          "width_2": 203.73162,
+          "conveyor_position_mm": 235935.02143625144
+        },
+        {
+          "timestamp": 1783432893.7467608,
+          "s1": -0.67,
+          "s2": 4.102,
+          "s3": -0.963,
+          "s4": 4.455,
+          "width_1": 203.6179,
+          "width_2": 203.76862,
+          "conveyor_position_mm": 235935.69863026435
+        },
+        {
+          "timestamp": 1783432893.7568996,
+          "s1": -0.693,
+          "s2": 4.123,
+          "s3": -0.995,
+          "s4": 4.526,
+          "width_1": 203.61589999999998,
+          "width_2": 203.80762000000001,
+          "conveyor_position_mm": 235936.37582427726
+        },
+        {
+          "timestamp": 1783432893.7667797,
+          "s1": -0.663,
+          "s2": 4.111,
+          "s3": -0.969,
+          "s4": 4.483,
+          "width_1": 203.63389999999998,
+          "width_2": 203.79062,
+          "conveyor_position_mm": 235936.37582427726
+        },
+        {
+          "timestamp": 1783432893.7768137,
+          "s1": -0.606,
+          "s2": 4.107,
+          "s3": -0.94,
+          "s4": 4.373,
+          "width_1": 203.6869,
+          "width_2": 203.70962,
+          "conveyor_position_mm": 235937.5669882343
+        },
+        {
+          "timestamp": 1783432893.7867937,
+          "s1": -0.647,
+          "s2": 4.17,
+          "s3": -0.999,
+          "s4": 4.373,
+          "width_1": 203.7089,
+          "width_2": 203.65062,
+          "conveyor_position_mm": 235938.2436090571
+        },
+        {
+          "timestamp": 1783432893.7968192,
+          "s1": -0.717,
+          "s2": 4.24,
+          "s3": -1.034,
+          "s4": 4.402,
+          "width_1": 203.7089,
+          "width_2": 203.64462,
+          "conveyor_position_mm": 235938.9202298799
+        },
+        {
+          "timestamp": 1783432893.8067877,
+          "s1": -0.683,
+          "s2": 4.219,
+          "s3": -0.957,
+          "s4": 4.367,
+          "width_1": 203.7219,
+          "width_2": 203.68662,
+          "conveyor_position_mm": 235939.5968507027
+        },
+        {
+          "timestamp": 1783432893.8170137,
+          "s1": -0.63,
+          "s2": 4.171,
+          "s3": -0.886,
+          "s4": 4.317,
+          "width_1": 203.7269,
+          "width_2": 203.70762,
+          "conveyor_position_mm": 235939.50964632645
+        },
+        {
+          "timestamp": 1783432893.8267665,
+          "s1": -0.688,
+          "s2": 4.183,
+          "s3": -0.923,
+          "s4": 4.355,
+          "width_1": 203.6809,
+          "width_2": 203.70862,
+          "conveyor_position_mm": 235940.1778843989
+        },
+        {
+          "timestamp": 1783432893.8367364,
+          "s1": -0.755,
+          "s2": 4.241,
+          "s3": -0.974,
+          "s4": 4.392,
+          "width_1": 203.6719,
+          "width_2": 203.69462,
+          "conveyor_position_mm": 235940.84612247135
+        },
+        {
+          "timestamp": 1783432893.8467789,
+          "s1": -0.744,
+          "s2": 4.255,
+          "s3": -0.964,
+          "s4": 4.258,
+          "width_1": 203.6969,
+          "width_2": 203.57062,
+          "conveyor_position_mm": 235942.05519830927
+        },
+        {
+          "timestamp": 1783432893.8567502,
+          "s1": -0.683,
+          "s2": 4.248,
+          "s3": -0.904,
+          "s4": 4.148,
+          "width_1": 203.7509,
+          "width_2": 203.52061999999998,
+          "conveyor_position_mm": 235942.74244392532
+        },
+        {
+          "timestamp": 1783432893.866729,
+          "s1": -0.688,
+          "s2": 4.276,
+          "s3": -0.923,
+          "s4": 4.255,
+          "width_1": 203.77390000000003,
+          "width_2": 203.60861999999997,
+          "conveyor_position_mm": 235943.42968954137
+        },
+        {
+          "timestamp": 1783432893.8784642,
+          "s1": -0.736,
+          "s2": 4.323,
+          "s3": -0.96,
+          "s4": 4.359,
+          "width_1": 203.77290000000002,
+          "width_2": 203.67562,
+          "conveyor_position_mm": 235943.42968954137
+        },
+        {
+          "timestamp": 1783432893.888073,
+          "s1": -0.689,
+          "s2": 4.306,
+          "s3": -0.909,
+          "s4": 4.309,
+          "width_1": 203.80290000000002,
+          "width_2": 203.67661999999999,
+          "conveyor_position_mm": 235943.99785640146
+        },
+        {
+          "timestamp": 1783432893.8968053,
+          "s1": -0.644,
+          "s2": 4.266,
+          "s3": -0.856,
+          "s4": 4.244,
+          "width_1": 203.8079,
+          "width_2": 203.66461999999999,
+          "conveyor_position_mm": 235944.66540340843
+        },
+        {
+          "timestamp": 1783432893.9067552,
+          "s1": -0.692,
+          "s2": 4.256,
+          "s3": -0.857,
+          "s4": 4.263,
+          "width_1": 203.7499,
+          "width_2": 203.68262,
+          "conveyor_position_mm": 235945.3329504154
+        },
+        {
+          "timestamp": 1783432893.9167695,
+          "s1": -0.769,
+          "s2": 4.262,
+          "s3": -0.88,
+          "s4": 4.303,
+          "width_1": 203.6789,
+          "width_2": 203.69961999999998,
+          "conveyor_position_mm": 235946.67738480444
+        },
+        {
+          "timestamp": 1783432893.9268103,
+          "s1": -0.775,
+          "s2": 4.222,
+          "s3": -0.83,
+          "s4": 4.273,
+          "width_1": 203.6329,
+          "width_2": 203.71962,
+          "conveyor_position_mm": 235947.3672236201
+        },
+        {
+          "timestamp": 1783432893.9367661,
+          "s1": -0.762,
+          "s2": 4.18,
+          "s3": -0.794,
+          "s4": 4.228,
+          "width_1": 203.6039,
+          "width_2": 203.71062,
+          "conveyor_position_mm": 235948.05706243575
+        },
+        {
+          "timestamp": 1783432893.9468396,
+          "s1": -0.806,
+          "s2": 4.226,
+          "s3": -0.875,
+          "s4": 4.28,
+          "width_1": 203.6059,
+          "width_2": 203.68161999999998,
+          "conveyor_position_mm": 235948.05706243575
+        },
+        {
+          "timestamp": 1783432893.9569867,
+          "s1": -0.848,
+          "s2": 4.278,
+          "s3": -0.949,
+          "s4": 4.35,
+          "width_1": 203.61589999999998,
+          "width_2": 203.67762000000002,
+          "conveyor_position_mm": 235949.35691320745
+        },
+        {
+          "timestamp": 1783432893.9667976,
+          "s1": -0.809,
+          "s2": 4.227,
+          "s3": -0.89,
+          "s4": 4.311,
+          "width_1": 203.6039,
+          "width_2": 203.69762,
+          "conveyor_position_mm": 235950.0367423557
+        },
+        {
+          "timestamp": 1783432893.9768167,
+          "s1": -0.777,
+          "s2": 4.174,
+          "s3": -0.868,
+          "s4": 4.251,
+          "width_1": 203.5829,
+          "width_2": 203.65962,
+          "conveyor_position_mm": 235950.71657150396
+        },
+        {
+          "timestamp": 1783432893.9867938,
+          "s1": -0.828,
+          "s2": 4.2,
+          "s3": -0.953,
+          "s4": 4.255,
+          "width_1": 203.5579,
+          "width_2": 203.57862,
+          "conveyor_position_mm": 235951.39640065221
+        },
+        {
+          "timestamp": 1783432893.996932,
+          "s1": -0.871,
+          "s2": 4.253,
+          "s3": -0.971,
+          "s4": 4.286,
+          "width_1": 203.56789999999998,
+          "width_2": 203.59162,
+          "conveyor_position_mm": 235951.2995712996
+        },
+        {
+          "timestamp": 1783432894.006911,
+          "s1": -0.877,
+          "s2": 4.234,
+          "s3": -0.878,
+          "s4": 4.238,
+          "width_1": 203.5429,
+          "width_2": 203.63662,
+          "conveyor_position_mm": 235951.97087294518
+        },
+        {
+          "timestamp": 1783432894.0168886,
+          "s1": -0.881,
+          "s2": 4.202,
+          "s3": -0.784,
+          "s4": 4.19,
+          "width_1": 203.5069,
+          "width_2": 203.68262,
+          "conveyor_position_mm": 235952.64217459076
+        },
+        {
+          "timestamp": 1783432894.0275385,
+          "s1": -0.935,
+          "s2": 4.26,
+          "s3": -0.789,
+          "s4": 4.276,
+          "width_1": 203.5109,
+          "width_2": 203.76362,
+          "conveyor_position_mm": 235953.84512328243
+        },
+        {
+          "timestamp": 1783432894.0380018,
+          "s1": -0.988,
+          "s2": 4.324,
+          "s3": -0.859,
+          "s4": 4.342,
+          "width_1": 203.52190000000002,
+          "width_2": 203.75962,
+          "conveyor_position_mm": 235954.52679270625
+        },
+        {
+          "timestamp": 1783432894.046844,
+          "s1": -1.005,
+          "s2": 4.302,
+          "s3": -0.89,
+          "s4": 4.314,
+          "width_1": 203.4829,
+          "width_2": 203.70062000000001,
+          "conveyor_position_mm": 235955.20846213007
+        },
+        {
+          "timestamp": 1783432894.056923,
+          "s1": -0.97,
+          "s2": 4.228,
+          "s3": -0.858,
+          "s4": 4.22,
+          "width_1": 203.4439,
+          "width_2": 203.63862,
+          "conveyor_position_mm": 235955.20846213007
+        },
+        {
+          "timestamp": 1783432894.0668352,
+          "s1": -0.963,
+          "s2": 4.281,
+          "s3": -0.886,
+          "s4": 4.243,
+          "width_1": 203.50390000000002,
+          "width_2": 203.63362,
+          "conveyor_position_mm": 235955.7877813746
+        },
+        {
+          "timestamp": 1783432894.076834,
+          "s1": -0.968,
+          "s2": 4.387,
+          "s3": -0.932,
+          "s4": 4.281,
+          "width_1": 203.60490000000001,
+          "width_2": 203.62562,
+          "conveyor_position_mm": 235956.46191253938
+        },
+        {
+          "timestamp": 1783432894.0868924,
+          "s1": -0.941,
+          "s2": 4.379,
+          "s3": -0.881,
+          "s4": 4.244,
+          "width_1": 203.6239,
+          "width_2": 203.63961999999998,
+          "conveyor_position_mm": 235957.13604370417
+        },
+        {
+          "timestamp": 1783432894.0967224,
+          "s1": -0.912,
+          "s2": 4.337,
+          "s3": -0.817,
+          "s4": 4.214,
+          "width_1": 203.6109,
+          "width_2": 203.67362,
+          "conveyor_position_mm": 235958.4003215675
+        },
+        {
+          "timestamp": 1783432894.1068015,
+          "s1": -0.972,
+          "s2": 4.328,
+          "s3": -0.83,
+          "s4": 4.259,
+          "width_1": 203.5419,
+          "width_2": 203.70562,
+          "conveyor_position_mm": 235959.08564437137
+        },
+        {
+          "timestamp": 1783432894.116744,
+          "s1": -1.043,
+          "s2": 4.38,
+          "s3": -0.878,
+          "s4": 4.289,
+          "width_1": 203.5229,
+          "width_2": 203.68762,
+          "conveyor_position_mm": 235959.77096717525
+        },
+        {
+          "timestamp": 1783432894.1267273,
+          "s1": -1.012,
+          "s2": 4.381,
+          "s3": -0.876,
+          "s4": 4.253,
+          "width_1": 203.5549,
+          "width_2": 203.65362000000002,
+          "conveyor_position_mm": 235960.45628997913
+        },
+        {
+          "timestamp": 1783432894.1367137,
+          "s1": -0.932,
+          "s2": 4.336,
+          "s3": -0.845,
+          "s4": 4.172,
+          "width_1": 203.5899,
+          "width_2": 203.60361999999998,
+          "conveyor_position_mm": 235960.40996786978
+        },
+        {
+          "timestamp": 1783432894.1474905,
+          "s1": -0.953,
+          "s2": 4.353,
+          "s3": -0.873,
+          "s4": 4.184,
+          "width_1": 203.5859,
+          "width_2": 203.58762,
+          "conveyor_position_mm": 235961.0879066653
+        },
+        {
+          "timestamp": 1783432894.15687,
+          "s1": -1.026,
+          "s2": 4.421,
+          "s3": -0.946,
+          "s4": 4.237,
+          "width_1": 203.58089999999999,
+          "width_2": 203.56762,
+          "conveyor_position_mm": 235961.76584546085
+        },
+        {
+          "timestamp": 1783432894.1668522,
+          "s1": -0.997,
+          "s2": 4.406,
+          "s3": -0.933,
+          "s4": 4.207,
+          "width_1": 203.5949,
+          "width_2": 203.55062,
+          "conveyor_position_mm": 235963.02250806274
+        },
+        {
+          "timestamp": 1783432894.1768303,
+          "s1": -0.97,
+          "s2": 4.372,
+          "s3": -0.905,
+          "s4": 4.167,
+          "width_1": 203.5879,
+          "width_2": 203.53861999999998,
+          "conveyor_position_mm": 235963.73274794206
+        },
+        {
+          "timestamp": 1783432894.186847,
+          "s1": -1.039,
+          "s2": 4.44,
+          "s3": -0.939,
+          "s4": 4.234,
+          "width_1": 203.58689999999999,
+          "width_2": 203.57162,
+          "conveyor_position_mm": 235964.44298782139
+        },
+        {
+          "timestamp": 1783432894.1968975,
+          "s1": -1.098,
+          "s2": 4.487,
+          "s3": -0.967,
+          "s4": 4.311,
+          "width_1": 203.57489999999999,
+          "width_2": 203.62062,
+          "conveyor_position_mm": 235964.44298782139
+        },
+        {
+          "timestamp": 1783432894.2068105,
+          "s1": -1.089,
+          "s2": 4.457,
+          "s3": -0.921,
+          "s4": 4.271,
+          "width_1": 203.5539,
+          "width_2": 203.62662,
+          "conveyor_position_mm": 235964.96516615493
+        },
+        {
+          "timestamp": 1783432894.2167885,
+          "s1": -1.048,
+          "s2": 4.42,
+          "s3": -0.865,
+          "s4": 4.184,
+          "width_1": 203.5579,
+          "width_2": 203.59562,
+          "conveyor_position_mm": 235965.6360350505
+        },
+        {
+          "timestamp": 1783432894.2267745,
+          "s1": -1.087,
+          "s2": 4.387,
+          "s3": -0.901,
+          "s4": 4.17,
+          "width_1": 203.48590000000002,
+          "width_2": 203.54562,
+          "conveyor_position_mm": 235966.30690394607
+        },
+        {
+          "timestamp": 1783432894.236791,
+          "s1": -1.157,
+          "s2": 4.394,
+          "s3": -0.961,
+          "s4": 4.201,
+          "width_1": 203.4229,
+          "width_2": 203.51662000000002,
+          "conveyor_position_mm": 235967.57770634786
+        },
+        {
+          "timestamp": 1783432894.2467608,
+          "s1": -1.13,
+          "s2": 4.406,
+          "s3": -0.93,
+          "s4": 4.127,
+          "width_1": 203.4619,
+          "width_2": 203.47362,
+          "conveyor_position_mm": 235968.24900606895
+        },
+        {
+          "timestamp": 1783432894.2568262,
+          "s1": -1.051,
+          "s2": 4.366,
+          "s3": -0.88,
+          "s4": 4.075,
+          "width_1": 203.50089999999997,
+          "width_2": 203.47162,
+          "conveyor_position_mm": 235968.92030579003
+        },
+        {
+          "timestamp": 1783432894.268045,
+          "s1": -1.08,
+          "s2": 4.385,
+          "s3": -0.973,
+          "s4": 4.161,
+          "width_1": 203.49089999999998,
+          "width_2": 203.46462,
+          "conveyor_position_mm": 235968.92030579003
+        },
+        {
+          "timestamp": 1783432894.2768655,
+          "s1": -1.115,
+          "s2": 4.439,
+          "s3": -1.037,
+          "s4": 4.258,
+          "width_1": 203.5099,
+          "width_2": 203.49762,
+          "conveyor_position_mm": 235970.1902465408
+        },
+        {
+          "timestamp": 1783432894.2869267,
+          "s1": -1.079,
+          "s2": 4.447,
+          "s3": -1.006,
+          "s4": 4.294,
+          "width_1": 203.5539,
+          "width_2": 203.56462,
+          "conveyor_position_mm": 235970.869893213
+        },
+        {
+          "timestamp": 1783432894.296836,
+          "s1": -1.028,
+          "s2": 4.417,
+          "s3": -0.937,
+          "s4": 4.267,
+          "width_1": 203.5749,
+          "width_2": 203.60662000000002,
+          "conveyor_position_mm": 235971.54953988522
+        },
+        {
+          "timestamp": 1783432894.3067997,
+          "s1": -1.096,
+          "s2": 4.426,
+          "s3": -0.983,
+          "s4": 4.295,
+          "width_1": 203.5159,
+          "width_2": 203.58862000000002,
+          "conveyor_position_mm": 235972.22918655744
+        },
+        {
+          "timestamp": 1783432894.3169265,
+          "s1": -1.147,
+          "s2": 4.452,
+          "s3": -1.026,
+          "s4": 4.341,
+          "width_1": 203.4909,
+          "width_2": 203.59162,
+          "conveyor_position_mm": 235972.13290463298
+        },
+        {
+          "timestamp": 1783432894.3268044,
+          "s1": -1.116,
+          "s2": 4.432,
+          "s3": -0.957,
+          "s4": 4.243,
+          "width_1": 203.50189999999998,
+          "width_2": 203.56262,
+          "conveyor_position_mm": 235972.79268195614
+        },
+        {
+          "timestamp": 1783432894.336821,
+          "s1": -1.115,
+          "s2": 4.402,
+          "s3": -0.894,
+          "s4": 4.102,
+          "width_1": 203.47289999999998,
+          "width_2": 203.48462,
+          "conveyor_position_mm": 235973.4524592793
+        },
+        {
+          "timestamp": 1783432894.3468146,
+          "s1": -1.194,
+          "s2": 4.405,
+          "s3": -0.932,
+          "s4": 4.033,
+          "width_1": 203.3969,
+          "width_2": 203.37762,
+          "conveyor_position_mm": 235974.74544482588
+        },
+        {
+          "timestamp": 1783432894.3568408,
+          "s1": -1.198,
+          "s2": 4.43,
+          "s3": -0.969,
+          "s4": 4.095,
+          "width_1": 203.4179,
+          "width_2": 203.40261999999998,
+          "conveyor_position_mm": 235975.41641174187
+        },
+        {
+          "timestamp": 1783432894.3667681,
+          "s1": -1.1,
+          "s2": 4.369,
+          "s3": -0.922,
+          "s4": 4.11,
+          "width_1": 203.4549,
+          "width_2": 203.46462,
+          "conveyor_position_mm": 235976.08737865786
+        },
+        {
+          "timestamp": 1783432894.376794,
+          "s1": -1.04,
+          "s2": 4.312,
+          "s3": -0.889,
+          "s4": 4.068,
+          "width_1": 203.45790000000002,
+          "width_2": 203.45562,
+          "conveyor_position_mm": 235976.75834557385
+        },
+        {
+          "timestamp": 1783432894.3882287,
+          "s1": -1.08,
+          "s2": 4.325,
+          "s3": -0.96,
+          "s4": 4.123,
+          "width_1": 203.43089999999998,
+          "width_2": 203.43962000000002,
+          "conveyor_position_mm": 235976.7550911281
+        },
+        {
+          "timestamp": 1783432894.3968675,
+          "s1": -1.127,
+          "s2": 4.376,
+          "s3": -1.006,
+          "s4": 4.226,
+          "width_1": 203.4349,
+          "width_2": 203.49661999999998,
+          "conveyor_position_mm": 235977.41930290323
+        },
+        {
+          "timestamp": 1783432894.406833,
+          "s1": -1.088,
+          "s2": 4.388,
+          "s3": -0.961,
+          "s4": 4.221,
+          "width_1": 203.48590000000002,
+          "width_2": 203.53662,
+          "conveyor_position_mm": 235978.08351467835
+        },
+        {
+          "timestamp": 1783432894.4169197,
+          "s1": -0.968,
+          "s2": 4.332,
+          "s3": -0.889,
+          "s4": 4.117,
+          "width_1": 203.5499,
+          "width_2": 203.50462000000002,
+          "conveyor_position_mm": 235979.36763132107
+        },
+        {
+          "timestamp": 1783432894.426799,
+          "s1": -0.96,
+          "s2": 4.32,
+          "s3": -0.942,
+          "s4": 4.132,
+          "width_1": 203.5459,
+          "width_2": 203.46662,
+          "conveyor_position_mm": 235980.0432881416
+        },
+        {
+          "timestamp": 1783432894.4369183,
+          "s1": -1.008,
+          "s2": 4.375,
+          "s3": -0.996,
+          "s4": 4.165,
+          "width_1": 203.5529,
+          "width_2": 203.44562000000002,
+          "conveyor_position_mm": 235980.71894496214
+        },
+        {
+          "timestamp": 1783432894.446819,
+          "s1": -1.024,
+          "s2": 4.37,
+          "s3": -0.968,
+          "s4": 4.089,
+          "width_1": 203.5319,
+          "width_2": 203.39762,
+          "conveyor_position_mm": 235981.39460178267
+        },
+        {
+          "timestamp": 1783432894.456837,
+          "s1": -0.946,
+          "s2": 4.3,
+          "s3": -0.903,
+          "s4": 4.05,
+          "width_1": 203.53990000000002,
+          "width_2": 203.42362,
+          "conveyor_position_mm": 235981.3772776233
+        },
+        {
+          "timestamp": 1783432894.4667711,
+          "s1": -0.932,
+          "s2": 4.302,
+          "s3": -0.929,
+          "s4": 4.105,
+          "width_1": 203.55589999999998,
+          "width_2": 203.45262,
+          "conveyor_position_mm": 235982.04456011564
+        },
+        {
+          "timestamp": 1783432894.4768028,
+          "s1": -1.006,
+          "s2": 4.361,
+          "s3": -0.986,
+          "s4": 4.173,
+          "width_1": 203.5409,
+          "width_2": 203.46362,
+          "conveyor_position_mm": 235982.71184260797
+        },
+        {
+          "timestamp": 1783432894.4867666,
+          "s1": -1.011,
+          "s2": 4.349,
+          "s3": -0.94,
+          "s4": 4.142,
+          "width_1": 203.5239,
+          "width_2": 203.47861999999998,
+          "conveyor_position_mm": 235983.92282960613
+        },
+        {
+          "timestamp": 1783432894.4973142,
+          "s1": -0.931,
+          "s2": 4.272,
+          "s3": -0.834,
+          "s4": 4.064,
+          "width_1": 203.52689999999998,
+          "width_2": 203.50662,
+          "conveyor_position_mm": 235984.60075853195
+        },
+        {
+          "timestamp": 1783432894.508158,
+          "s1": -0.92,
+          "s2": 4.284,
+          "s3": -0.873,
+          "s4": 4.09,
+          "width_1": 203.54989999999998,
+          "width_2": 203.49362,
+          "conveyor_position_mm": 235985.27868745776
+        },
+        {
+          "timestamp": 1783432894.5168557,
+          "s1": -0.931,
+          "s2": 4.318,
+          "s3": -0.942,
+          "s4": 4.15,
+          "width_1": 203.5729,
+          "width_2": 203.48462,
+          "conveyor_position_mm": 235985.27868745776
+        },
+        {
+          "timestamp": 1783432894.5268185,
+          "s1": -0.88,
+          "s2": 4.264,
+          "s3": -0.955,
+          "s4": 4.161,
+          "width_1": 203.56990000000002,
+          "width_2": 203.48262,
+          "conveyor_position_mm": 235985.8654876983
+        },
+        {
+          "timestamp": 1783432894.536839,
+          "s1": -0.821,
+          "s2": 4.217,
+          "s3": -0.888,
+          "s4": 4.023,
+          "width_1": 203.58190000000002,
+          "width_2": 203.41162,
+          "conveyor_position_mm": 235986.54341509586
+        },
+        {
+          "timestamp": 1783432894.5467975,
+          "s1": -0.841,
+          "s2": 4.259,
+          "s3": -0.92,
+          "s4": 4.002,
+          "width_1": 203.60389999999998,
+          "width_2": 203.35862,
+          "conveyor_position_mm": 235987.22134249343
+        },
+        {
+          "timestamp": 1783432894.5570617,
+          "s1": -0.881,
+          "s2": 4.286,
+          "s3": -1.017,
+          "s4": 4.049,
+          "width_1": 203.5909,
+          "width_2": 203.30862,
+          "conveyor_position_mm": 235988.47802789125
+        },
+        {
+          "timestamp": 1783432894.5668426,
+          "s1": -0.844,
+          "s2": 4.236,
+          "s3": -0.997,
+          "s4": 4.034,
+          "width_1": 203.5779,
+          "width_2": 203.31362000000001,
+          "conveyor_position_mm": 235989.15704253654
+        },
+        {
+          "timestamp": 1783432894.5768802,
+          "s1": -0.771,
+          "s2": 4.174,
+          "s3": -0.911,
+          "s4": 3.994,
+          "width_1": 203.5889,
+          "width_2": 203.35961999999998,
+          "conveyor_position_mm": 235989.83605718182
+        },
+        {
+          "timestamp": 1783432894.5868564,
+          "s1": -0.738,
+          "s2": 4.142,
+          "s3": -0.881,
+          "s4": 4.007,
+          "width_1": 203.5899,
+          "width_2": 203.40261999999998,
+          "conveyor_position_mm": 235990.5150718271
+        },
+        {
+          "timestamp": 1783432894.5968573,
+          "s1": -0.788,
+          "s2": 4.182,
+          "s3": -0.914,
+          "s4": 4.072,
+          "width_1": 203.57989999999998,
+          "width_2": 203.43462,
+          "conveyor_position_mm": 235991.15755629426
+        },
+        {
+          "timestamp": 1783432894.6068873,
+          "s1": -0.792,
+          "s2": 4.145,
+          "s3": -0.867,
+          "s4": 4.043,
+          "width_1": 203.5389,
+          "width_2": 203.45262,
+          "conveyor_position_mm": 235991.84621604084
+        },
+        {
+          "timestamp": 1783432894.6168807,
+          "s1": -0.769,
+          "s2": 4.092,
+          "s3": -0.807,
+          "s4": 3.998,
+          "width_1": 203.50889999999998,
+          "width_2": 203.46762,
+          "conveyor_position_mm": 235992.53487578742
+        },
+        {
+          "timestamp": 1783432894.626833,
+          "s1": -0.805,
+          "s2": 4.098,
+          "s3": -0.826,
+          "s4": 4.008,
+          "width_1": 203.4789,
+          "width_2": 203.45862,
+          "conveyor_position_mm": 235993.223535534
+        },
+        {
+          "timestamp": 1783432894.636962,
+          "s1": -0.854,
+          "s2": 4.193,
+          "s3": -0.941,
+          "s4": 4.081,
+          "width_1": 203.5249,
+          "width_2": 203.41662,
+          "conveyor_position_mm": 235993.1672025965
+        },
+        {
+          "timestamp": 1783432894.6471348,
+          "s1": -0.768,
+          "s2": 4.184,
+          "s3": -0.925,
+          "s4": 4.045,
+          "width_1": 203.6019,
+          "width_2": 203.39662,
+          "conveyor_position_mm": 235993.8351333973
+        },
+        {
+          "timestamp": 1783432894.6576767,
+          "s1": -0.654,
+          "s2": 4.119,
+          "s3": -0.82,
+          "s4": 3.914,
+          "width_1": 203.6509,
+          "width_2": 203.37062,
+          "conveyor_position_mm": 235994.50306419813
+        },
+        {
+          "timestamp": 1783432894.666955,
+          "s1": -0.681,
+          "s2": 4.126,
+          "s3": -0.844,
+          "s4": 3.919,
+          "width_1": 203.6309,
+          "width_2": 203.35162,
+          "conveyor_position_mm": 235995.77974278945
+        },
+        {
+          "timestamp": 1783432894.6768737,
+          "s1": -0.74,
+          "s2": 4.173,
+          "s3": -0.943,
+          "s4": 4.037,
+          "width_1": 203.6189,
+          "width_2": 203.37062,
+          "conveyor_position_mm": 235996.45798824393
+        },
+        {
+          "timestamp": 1783432894.6868088,
+          "s1": -0.679,
+          "s2": 4.139,
+          "s3": -0.935,
+          "s4": 4.036,
+          "width_1": 203.6459,
+          "width_2": 203.37761999999998,
+          "conveyor_position_mm": 235997.1362336984
+        },
+        {
+          "timestamp": 1783432894.6969361,
+          "s1": -0.575,
+          "s2": 4.066,
+          "s3": -0.873,
+          "s4": 3.941,
+          "width_1": 203.67690000000002,
+          "width_2": 203.34462,
+          "conveyor_position_mm": 235997.81447915288
+        },
+        {
+          "timestamp": 1783432894.7068193,
+          "s1": -0.571,
+          "s2": 4.059,
+          "s3": -0.84,
+          "s4": 3.881,
+          "width_1": 203.6739,
+          "width_2": 203.31761999999998,
+          "conveyor_position_mm": 235997.72240088164
+        },
+        {
+          "timestamp": 1783432894.7168539,
+          "s1": -0.634,
+          "s2": 4.113,
+          "s3": -0.895,
+          "s4": 3.996,
+          "width_1": 203.6649,
+          "width_2": 203.37762,
+          "conveyor_position_mm": 235998.40076876423
+        },
+        {
+          "timestamp": 1783432894.7267838,
+          "s1": -0.552,
+          "s2": 4.057,
+          "s3": -0.864,
+          "s4": 3.98,
+          "width_1": 203.6909,
+          "width_2": 203.39262000000002,
+          "conveyor_position_mm": 235999.07913664682
+        },
+        {
+          "timestamp": 1783432894.7368207,
+          "s1": -0.447,
+          "s2": 4.003,
+          "s3": -0.808,
+          "s4": 3.894,
+          "width_1": 203.7419,
+          "width_2": 203.36262,
+          "conveyor_position_mm": 236000.3349410746
+        },
+        {
+          "timestamp": 1783432894.746746,
+          "s1": -0.44,
+          "s2": 4.025,
+          "s3": -0.84,
+          "s4": 3.872,
+          "width_1": 203.7709,
+          "width_2": 203.30862,
+          "conveyor_position_mm": 236001.01413435576
+        },
+        {
+          "timestamp": 1783432894.756834,
+          "s1": -0.515,
+          "s2": 4.076,
+          "s3": -0.952,
+          "s4": 3.972,
+          "width_1": 203.74689999999998,
+          "width_2": 203.29662,
+          "conveyor_position_mm": 236001.69332763692
+        },
+        {
+          "timestamp": 1783432894.7676864,
+          "s1": -0.503,
+          "s2": 4.031,
+          "s3": -0.931,
+          "s4": 3.985,
+          "width_1": 203.7139,
+          "width_2": 203.33062,
+          "conveyor_position_mm": 236001.69332763692
+        },
+        {
+          "timestamp": 1783432894.777071,
+          "s1": -0.377,
+          "s2": 3.944,
+          "s3": -0.793,
+          "s4": 3.864,
+          "width_1": 203.75289999999998,
+          "width_2": 203.34762,
+          "conveyor_position_mm": 236002.27759916676
+        },
+        {
+          "timestamp": 1783432894.7868085,
+          "s1": -0.374,
+          "s2": 3.965,
+          "s3": -0.8,
+          "s4": 3.837,
+          "width_1": 203.7769,
+          "width_2": 203.31362000000001,
+          "conveyor_position_mm": 236002.95678923387
+        },
+        {
+          "timestamp": 1783432894.7968912,
+          "s1": -0.482,
+          "s2": 4.021,
+          "s3": -0.908,
+          "s4": 3.911,
+          "width_1": 203.7249,
+          "width_2": 203.27962,
+          "conveyor_position_mm": 236003.63597930098
+        },
+        {
+          "timestamp": 1783432894.8069043,
+          "s1": -0.507,
+          "s2": 3.98,
+          "s3": -0.878,
+          "s4": 3.912,
+          "width_1": 203.6589,
+          "width_2": 203.31062,
+          "conveyor_position_mm": 236004.95712756977
+        },
+        {
+          "timestamp": 1783432894.8168552,
+          "s1": -0.471,
+          "s2": 3.908,
+          "s3": -0.72,
+          "s4": 3.813,
+          "width_1": 203.6229,
+          "width_2": 203.36962,
+          "conveyor_position_mm": 236005.63741084034
+        },
+        {
+          "timestamp": 1783432894.8267813,
+          "s1": -0.477,
+          "s2": 3.939,
+          "s3": -0.724,
+          "s4": 3.813,
+          "width_1": 203.6479,
+          "width_2": 203.36562,
+          "conveyor_position_mm": 236006.3176941109
+        },
+        {
+          "timestamp": 1783432894.8368013,
+          "s1": -0.485,
+          "s2": 4.029,
+          "s3": -0.859,
+          "s4": 3.944,
+          "width_1": 203.7299,
+          "width_2": 203.36162000000002,
+          "conveyor_position_mm": 236006.99797738148
+        },
+        {
+          "timestamp": 1783432894.846792,
+          "s1": -0.434,
+          "s2": 3.998,
+          "s3": -0.829,
+          "s4": 3.915,
+          "width_1": 203.7499,
+          "width_2": 203.36262000000002,
+          "conveyor_position_mm": 236006.89978566195
+        },
+        {
+          "timestamp": 1783432894.8568463,
+          "s1": -0.364,
+          "s2": 3.899,
+          "s3": -0.742,
+          "s4": 3.828,
+          "width_1": 203.7209,
+          "width_2": 203.36262,
+          "conveyor_position_mm": 236007.5792324899
+        },
+        {
+          "timestamp": 1783432894.8667889,
+          "s1": -0.367,
+          "s2": 3.843,
+          "s3": -0.709,
+          "s4": 3.806,
+          "width_1": 203.6619,
+          "width_2": 203.37362,
+          "conveyor_position_mm": 236008.25867931783
+        },
+        {
+          "timestamp": 1783432894.8774915,
+          "s1": -0.415,
+          "s2": 3.925,
+          "s3": -0.749,
+          "s4": 3.864,
+          "width_1": 203.69590000000002,
+          "width_2": 203.39162,
+          "conveyor_position_mm": 236008.25867931783
+        },
+        {
+          "timestamp": 1783432894.887645,
+          "s1": -0.395,
+          "s2": 3.951,
+          "s3": -0.742,
+          "s4": 3.853,
+          "width_1": 203.7419,
+          "width_2": 203.38762,
+          "conveyor_position_mm": 236009.5123258549
+        },
+        {
+          "timestamp": 1783432894.89686,
+          "s1": -0.326,
+          "s2": 3.883,
+          "s3": -0.679,
+          "s4": 3.787,
+          "width_1": 203.74290000000002,
+          "width_2": 203.38461999999998,
+          "conveyor_position_mm": 236010.18075068993
+        },
+        {
+          "timestamp": 1783432894.9068093,
+          "s1": -0.375,
+          "s2": 3.901,
+          "s3": -0.703,
+          "s4": 3.813,
+          "width_1": 203.7119,
+          "width_2": 203.38662,
+          "conveyor_position_mm": 236010.84917552496
+        },
+        {
+          "timestamp": 1783432894.9168947,
+          "s1": -0.48,
+          "s2": 3.895,
+          "s3": -0.759,
+          "s4": 3.901,
+          "width_1": 203.60090000000002,
+          "width_2": 203.41862,
+          "conveyor_position_mm": 236012.12486604784
+        },
+        {
+          "timestamp": 1783432894.9268548,
+          "s1": -0.453,
+          "s2": 3.863,
+          "s3": -0.725,
+          "s4": 3.887,
+          "width_1": 203.5959,
+          "width_2": 203.43862,
+          "conveyor_position_mm": 236012.81280139275
+        },
+        {
+          "timestamp": 1783432894.93686,
+          "s1": -0.376,
+          "s2": 3.842,
+          "s3": -0.645,
+          "s4": 3.81,
+          "width_1": 203.6519,
+          "width_2": 203.44162,
+          "conveyor_position_mm": 236013.50073673765
+        },
+        {
+          "timestamp": 1783432894.9468358,
+          "s1": -0.471,
+          "s2": 3.883,
+          "s3": -0.658,
+          "s4": 3.839,
+          "width_1": 203.5979,
+          "width_2": 203.45762,
+          "conveyor_position_mm": 236013.50073673765
+        },
+        {
+          "timestamp": 1783432894.9569085,
+          "s1": -0.65,
+          "s2": 3.902,
+          "s3": -0.714,
+          "s4": 3.904,
+          "width_1": 203.43789999999998,
+          "width_2": 203.46661999999998,
+          "conveyor_position_mm": 236014.1345123501
+        },
+        {
+          "timestamp": 1783432894.9667537,
+          "s1": -0.988,
+          "s2": 3.874,
+          "s3": -0.776,
+          "s4": 3.914,
+          "width_1": 203.0719,
+          "width_2": 203.41462,
+          "conveyor_position_mm": 236014.8040096977
+        },
+        {
+          "timestamp": 1783432894.976849,
+          "s1": -1.928,
+          "s2": 3.768,
+          "s3": -1.222,
+          "s4": 3.824,
+          "width_1": 202.0259,
+          "width_2": 202.87862,
+          "conveyor_position_mm": 236015.47350704527
+        },
+        {
+          "timestamp": 1783432894.9867797,
+          "s1": -2.962,
+          "s2": 3.813,
+          "s3": -1.99,
+          "s4": 3.801,
+          "width_1": 201.0369,
+          "width_2": 202.08762000000002,
+          "conveyor_position_mm": 236016.74705254307
+        },
+        {
+          "timestamp": 1783432894.9972978,
+          "s1": -3.988,
+          "s2": 3.874,
+          "s3": -2.281,
+          "s4": 3.764,
+          "width_1": 200.0719,
+          "width_2": 201.75962,
+          "conveyor_position_mm": 236017.42814610264
+        },
+        {
+          "timestamp": 1783432895.007747,
+          "s1": -5.221,
+          "s2": 3.848,
+          "s3": -2.482,
+          "s4": 3.585,
+          "width_1": 198.8129,
+          "width_2": 201.37962,
+          "conveyor_position_mm": 236018.1092396622
+        },
+        {
+          "timestamp": 1783432895.0169108,
+          "s1": -6.342,
+          "s2": 3.682,
+          "s3": null,
+          "s4": 3.11,
+          "width_1": 197.52589999999998,
+          "width_2": null,
+          "conveyor_position_mm": 236018.1092396622
+        },
+        {
+          "timestamp": 1783432895.0268545,
+          "s1": null,
+          "s2": 3.66,
+          "s3": null,
+          "s4": 2.767,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236018.7566988453
+        },
+        {
+          "timestamp": 1783432895.0368257,
+          "s1": null,
+          "s2": 3.727,
+          "s3": null,
+          "s4": 2.356,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236019.43808740895
+        },
+        {
+          "timestamp": 1783432895.046887,
+          "s1": null,
+          "s2": 3.625,
+          "s3": null,
+          "s4": 2.228,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236020.1194759726
+        },
+        {
+          "timestamp": 1783432895.0568392,
+          "s1": null,
+          "s2": 3.294,
+          "s3": null,
+          "s4": -3.049,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236021.36923903823
+        },
+        {
+          "timestamp": 1783432895.066801,
+          "s1": null,
+          "s2": 0.731,
+          "s3": null,
+          "s4": -10.37,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236022.05060970996
+        },
+        {
+          "timestamp": 1783432895.0768597,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": -0.987,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236022.73198038168
+        }
+      ]
+    },
+    {
+      "region_id": 1981,
+      "region_type": "F",
+      "region_length": 7.066284555039601,
+      "start_position_mm": 236023.4133510534,
+      "end_position_mm": 236030.47963560844,
+      "start_timestamp": 1783432895.0867834,
+      "end_timestamp": 1783432895.2068129,
+      "packet_count": 13,
+      "block_separator": null,
+      "calibration_values": {
+        "pair_1": {
+          "calibrated": true,
+          "sensor_a_cal": 2.80694,
+          "sensor_b_cal": -2.9928399999999997
+        },
+        "pair_2": {
+          "calibrated": true,
+          "sensor_a_cal": 2.69604,
+          "sensor_b_cal": -2.9726600000000003
+        }
+      },
+      "holes": [],
+      "baseline_fits": [],
+      "width_fits": [],
+      "subregions": [],
+      "packets": [
+        {
+          "timestamp": 1783432895.0867834,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236023.4133510534
+        },
+        {
+          "timestamp": 1783432895.1009033,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236023.24490892031
+        },
+        {
+          "timestamp": 1783432895.1067593,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236023.92488616717
+        },
+        {
+          "timestamp": 1783432895.1171339,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236024.60486341402
+        },
+        {
+          "timestamp": 1783432895.126935,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236024.60486341402
+        },
+        {
+          "timestamp": 1783432895.1368494,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236025.92443732332
+        },
+        {
+          "timestamp": 1783432895.146819,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236026.5938039424
+        },
+        {
+          "timestamp": 1783432895.1568036,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236027.2631705615
+        },
+        {
+          "timestamp": 1783432895.1669312,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236027.86709541548
+        },
+        {
+          "timestamp": 1783432895.1768162,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236028.54367314343
+        },
+        {
+          "timestamp": 1783432895.1869137,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236029.22025087138
+        },
+        {
+          "timestamp": 1783432895.1967986,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236029.89682859933
+        },
+        {
+          "timestamp": 1783432895.2068129,
+          "s1": null,
+          "s2": null,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236030.47963560844
+        }
+      ]
+    },
+    {
+      "region_id": 1982,
+      "region_type": "R",
+      "region_length": 124.46718991539092,
+      "start_position_mm": 236031.1464221131,
+      "end_position_mm": 236155.61361202848,
+      "start_timestamp": 1783432895.216904,
+      "end_timestamp": 1783432897.1275651,
+      "packet_count": 192,
+      "block_separator": "right",
+      "calibration_values": {
+        "pair_1": {
+          "calibrated": true,
+          "sensor_a_cal": 2.80694,
+          "sensor_b_cal": -2.9928399999999997
+        },
+        "pair_2": {
+          "calibrated": true,
+          "sensor_a_cal": 2.69604,
+          "sensor_b_cal": -2.9726600000000003
+        }
+      },
+      "holes": [
+        {
+          "sensor": "s1",
+          "start_index": 81,
+          "end_index": 87,
+          "length_mm": 3.9529588678560685,
+          "max_deviation_mm": 1.1961789447729643,
+          "median_deviation_mm": 1.004380708304452
+        },
+        {
+          "sensor": "s2",
+          "start_index": 2,
+          "end_index": 8,
+          "length_mm": 3.273974920331966,
+          "max_deviation_mm": 5.295642700093784,
+          "median_deviation_mm": 2.5114333639194046
+        },
+        {
+          "sensor": "s2",
+          "start_index": 32,
+          "end_index": 36,
+          "length_mm": 3.237458934308961,
+          "max_deviation_mm": 0.6578155069008189,
+          "median_deviation_mm": 0.5587609988993498
+        },
+        {
+          "sensor": "s2",
+          "start_index": 184,
+          "end_index": 191,
+          "length_mm": 4.555198285146616,
+          "max_deviation_mm": 9.003967089922591,
+          "median_deviation_mm": 1.681218210944131
+        },
+        {
+          "sensor": "s3",
+          "start_index": 0,
+          "end_index": 4,
+          "length_mm": 3.2486163848952856,
+          "max_deviation_mm": 14.353569367921246,
+          "median_deviation_mm": 1.453229969105989
+        }
+      ],
+      "baseline_fits": [
+        {
+          "sensor": "s1",
+          "half_index": 0,
+          "slope": 0.00575892220273899,
+          "intercept": -1359.6064752501554,
+          "start_index": 0,
+          "end_index": 192
+        },
+        {
+          "sensor": "s2",
+          "half_index": 0,
+          "slope": -0.004532855469202949,
+          "intercept": 1073.6912318341842,
+          "start_index": 0,
+          "end_index": 192
+        },
+        {
+          "sensor": "s3",
+          "half_index": 0,
+          "slope": 0.002195253583489386,
+          "intercept": -518.6161143957943,
+          "start_index": 0,
+          "end_index": 192
+        },
+        {
+          "sensor": "s4",
+          "half_index": 0,
+          "slope": -0.0019152076833723398,
+          "intercept": 455.9251234566503,
+          "start_index": 0,
+          "end_index": 192
+        }
+      ],
+      "width_fits": [
+        {
+          "sensor": "s1",
+          "half_index": 0,
+          "slope": 0.005411318089099573,
+          "intercept": -1277.4888768398566,
+          "start_index": 0,
+          "end_index": 192
+        },
+        {
+          "sensor": "s2",
+          "half_index": 0,
+          "slope": -0.004087207931231254,
+          "intercept": 968.5572640733244,
+          "start_index": 0,
+          "end_index": 192
+        },
+        {
+          "sensor": "s3",
+          "half_index": 0,
+          "slope": 0.0025616243103513555,
+          "intercept": -605.0709966503433,
+          "start_index": 0,
+          "end_index": 192
+        },
+        {
+          "sensor": "s4",
+          "half_index": 0,
+          "slope": -0.0015862019746276294,
+          "intercept": 378.2915373190527,
+          "start_index": 0,
+          "end_index": 192
+        }
+      ],
+      "subregions": [
+        {
+          "slot": 1,
+          "pair": 1,
+          "start_index": 7,
+          "end_index": 66,
+          "trimmed_mean_width": 203.52274615384616,
+          "baseline_fit_width": 203.81642100304208,
+          "whole_stone_fit_width": 203.65235689103957
+        },
+        {
+          "slot": 1,
+          "pair": 2,
+          "start_index": 7,
+          "end_index": 66,
+          "trimmed_mean_width": 203.76962,
+          "baseline_fit_width": 203.74997216525088,
+          "whole_stone_fit_width": 203.610082798034
+        },
+        {
+          "slot": 2,
+          "pair": 1,
+          "start_index": 66,
+          "end_index": 125,
+          "trimmed_mean_width": 203.79493846153844,
+          "baseline_fit_width": 203.8663491117066,
+          "whole_stone_fit_width": 203.66987109555276
+        },
+        {
+          "slot": 2,
+          "pair": 2,
+          "start_index": 66,
+          "end_index": 125,
+          "trimmed_mean_width": 203.47416237288135,
+          "baseline_fit_width": 203.78675233197822,
+          "whole_stone_fit_width": 203.59837102646986
+        },
+        {
+          "slot": 3,
+          "pair": 1,
+          "start_index": 125,
+          "end_index": 185,
+          "trimmed_mean_width": 203.6465779661017,
+          "baseline_fit_width": 203.91869571422745,
+          "whole_stone_fit_width": 203.688233679809
+        },
+        {
+          "slot": 3,
+          "pair": 2,
+          "start_index": 125,
+          "end_index": 185,
+          "trimmed_mean_width": 203.65363666666664,
+          "baseline_fit_width": 203.82531411250278,
+          "whole_stone_fit_width": 203.58609194225699
+        }
+      ],
+      "packets": [
+        {
+          "timestamp": 1783432895.216904,
+          "s1": null,
+          "s2": null,
+          "s3": -8.906,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236031.1464221131
+        },
+        {
+          "timestamp": 1783432895.226888,
+          "s1": null,
+          "s2": null,
+          "s3": -14.82,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236031.81320861774
+        },
+        {
+          "timestamp": 1783432895.2369576,
+          "s1": null,
+          "s2": -1.508,
+          "s3": -1.917,
+          "s4": -14.127,
+          "width_1": null,
+          "width_2": 184.23262,
+          "conveyor_position_mm": 236033.02518759127
+        },
+        {
+          "timestamp": 1783432895.2469125,
+          "s1": -2.893,
+          "s2": -0.264,
+          "s3": -1.876,
+          "s4": 0.129,
+          "width_1": 197.0289,
+          "width_2": 198.52962000000002,
+          "conveyor_position_mm": 236033.71011304462
+        },
+        {
+          "timestamp": 1783432895.2579575,
+          "s1": -2.018,
+          "s2": 0.162,
+          "s3": -1.392,
+          "s4": 3.75,
+          "width_1": 198.3299,
+          "width_2": 202.63461999999998,
+          "conveyor_position_mm": 236034.39503849798
+        },
+        {
+          "timestamp": 1783432895.2669144,
+          "s1": -1.108,
+          "s2": 1.27,
+          "s3": -0.713,
+          "s4": 3.848,
+          "width_1": 200.3479,
+          "width_2": 203.41162,
+          "conveyor_position_mm": 236034.39503849798
+        },
+        {
+          "timestamp": 1783432895.276808,
+          "s1": -0.706,
+          "s2": 2.488,
+          "s3": -0.611,
+          "s4": 3.947,
+          "width_1": 201.96790000000001,
+          "width_2": 203.61262,
+          "conveyor_position_mm": 236034.96784568345
+        },
+        {
+          "timestamp": 1783432895.2872567,
+          "s1": -0.4,
+          "s2": 3.093,
+          "s3": -0.519,
+          "s4": 3.919,
+          "width_1": 202.8789,
+          "width_2": 203.67662,
+          "conveyor_position_mm": 236035.63350409752
+        },
+        {
+          "timestamp": 1783432895.2967584,
+          "s1": -0.223,
+          "s2": 3.149,
+          "s3": -0.482,
+          "s4": 3.84,
+          "width_1": 203.1119,
+          "width_2": 203.63461999999998,
+          "conveyor_position_mm": 236036.2991625116
+        },
+        {
+          "timestamp": 1783432895.3069246,
+          "s1": -0.116,
+          "s2": 3.392,
+          "s3": -0.61,
+          "s4": 3.89,
+          "width_1": 203.46189999999999,
+          "width_2": 203.55662,
+          "conveyor_position_mm": 236037.58038587635
+        },
+        {
+          "timestamp": 1783432895.3168726,
+          "s1": -0.146,
+          "s2": 3.585,
+          "s3": -0.679,
+          "s4": 4.004,
+          "width_1": 203.6249,
+          "width_2": 203.60162,
+          "conveyor_position_mm": 236038.2561161181
+        },
+        {
+          "timestamp": 1783432895.326775,
+          "s1": -0.139,
+          "s2": 3.67,
+          "s3": -0.583,
+          "s4": 4.011,
+          "width_1": 203.71689999999998,
+          "width_2": 203.70461999999998,
+          "conveyor_position_mm": 236038.93184635986
+        },
+        {
+          "timestamp": 1783432895.3367624,
+          "s1": -0.095,
+          "s2": 3.648,
+          "s3": -0.454,
+          "s4": 3.908,
+          "width_1": 203.7389,
+          "width_2": 203.73062000000002,
+          "conveyor_position_mm": 236039.60757660161
+        },
+        {
+          "timestamp": 1783432895.3467793,
+          "s1": -0.104,
+          "s2": 3.691,
+          "s3": -0.422,
+          "s4": 3.846,
+          "width_1": 203.7729,
+          "width_2": 203.70062,
+          "conveyor_position_mm": 236039.4560557585
+        },
+        {
+          "timestamp": 1783432895.3568137,
+          "s1": -0.171,
+          "s2": 3.733,
+          "s3": -0.502,
+          "s4": 3.885,
+          "width_1": 203.74790000000002,
+          "width_2": 203.65962000000002,
+          "conveyor_position_mm": 236040.13023033997
+        },
+        {
+          "timestamp": 1783432895.366791,
+          "s1": -0.164,
+          "s2": 3.659,
+          "s3": -0.507,
+          "s4": 3.881,
+          "width_1": 203.68089999999998,
+          "width_2": 203.65062,
+          "conveyor_position_mm": 236040.80440492145
+        },
+        {
+          "timestamp": 1783432895.3777862,
+          "s1": -0.107,
+          "s2": 3.602,
+          "s3": -0.443,
+          "s4": 3.85,
+          "width_1": 203.6809,
+          "width_2": 203.68362000000002,
+          "conveyor_position_mm": 236040.80440492145
+        },
+        {
+          "timestamp": 1783432895.3868842,
+          "s1": -0.096,
+          "s2": 3.649,
+          "s3": -0.436,
+          "s4": 3.885,
+          "width_1": 203.7389,
+          "width_2": 203.72562000000002,
+          "conveyor_position_mm": 236042.06859595142
+        },
+        {
+          "timestamp": 1783432895.3968155,
+          "s1": -0.135,
+          "s2": 3.695,
+          "s3": -0.495,
+          "s4": 3.941,
+          "width_1": 203.7459,
+          "width_2": 203.72262,
+          "conveyor_position_mm": 236042.73164891903
+        },
+        {
+          "timestamp": 1783432895.4068031,
+          "s1": -0.141,
+          "s2": 3.677,
+          "s3": -0.484,
+          "s4": 3.919,
+          "width_1": 203.7219,
+          "width_2": 203.71162,
+          "conveyor_position_mm": 236043.39470188663
+        },
+        {
+          "timestamp": 1783432895.4168448,
+          "s1": -0.12,
+          "s2": 3.615,
+          "s3": -0.411,
+          "s4": 3.887,
+          "width_1": 203.6809,
+          "width_2": 203.75261999999998,
+          "conveyor_position_mm": 236043.94426583353
+        },
+        {
+          "timestamp": 1783432895.426807,
+          "s1": -0.114,
+          "s2": 3.573,
+          "s3": -0.39,
+          "s4": 3.918,
+          "width_1": 203.6449,
+          "width_2": 203.80462,
+          "conveyor_position_mm": 236044.61429580595
+        },
+        {
+          "timestamp": 1783432895.436817,
+          "s1": -0.146,
+          "s2": 3.603,
+          "s3": -0.481,
+          "s4": 3.997,
+          "width_1": 203.6429,
+          "width_2": 203.79262,
+          "conveyor_position_mm": 236045.28432577837
+        },
+        {
+          "timestamp": 1783432895.4467714,
+          "s1": -0.126,
+          "s2": 3.586,
+          "s3": -0.475,
+          "s4": 3.981,
+          "width_1": 203.64589999999998,
+          "width_2": 203.78262,
+          "conveyor_position_mm": 236045.28432577837
+        },
+        {
+          "timestamp": 1783432895.4567845,
+          "s1": -0.054,
+          "s2": 3.489,
+          "s3": -0.37,
+          "s4": 3.902,
+          "width_1": 203.6209,
+          "width_2": 203.80862000000002,
+          "conveyor_position_mm": 236046.62379423654
+        },
+        {
+          "timestamp": 1783432895.4667435,
+          "s1": -0.074,
+          "s2": 3.489,
+          "s3": -0.372,
+          "s4": 3.917,
+          "width_1": 203.6009,
+          "width_2": 203.82162,
+          "conveyor_position_mm": 236047.2837492426
+        },
+        {
+          "timestamp": 1783432895.476751,
+          "s1": -0.141,
+          "s2": 3.526,
+          "s3": -0.453,
+          "s4": 3.98,
+          "width_1": 203.57090000000002,
+          "width_2": 203.80362,
+          "conveyor_position_mm": 236047.94370424867
+        },
+        {
+          "timestamp": 1783432895.4870977,
+          "s1": -0.148,
+          "s2": 3.501,
+          "s3": -0.469,
+          "s4": 3.976,
+          "width_1": 203.5389,
+          "width_2": 203.78361999999998,
+          "conveyor_position_mm": 236048.56645232873
+        },
+        {
+          "timestamp": 1783432895.4973204,
+          "s1": -0.112,
+          "s2": 3.477,
+          "s3": -0.36,
+          "s4": 3.894,
+          "width_1": 203.5509,
+          "width_2": 203.81062,
+          "conveyor_position_mm": 236049.23322934474
+        },
+        {
+          "timestamp": 1783432895.5069396,
+          "s1": -0.136,
+          "s2": 3.527,
+          "s3": -0.354,
+          "s4": 3.878,
+          "width_1": 203.5769,
+          "width_2": 203.80062,
+          "conveyor_position_mm": 236049.90000636075
+        },
+        {
+          "timestamp": 1783432895.5168169,
+          "s1": -0.17,
+          "s2": 3.531,
+          "s3": -0.439,
+          "s4": 3.938,
+          "width_1": 203.5469,
+          "width_2": 203.77562,
+          "conveyor_position_mm": 236050.56678337677
+        },
+        {
+          "timestamp": 1783432895.5268047,
+          "s1": -0.172,
+          "s2": 3.449,
+          "s3": -0.46,
+          "s4": 3.961,
+          "width_1": 203.4629,
+          "width_2": 203.77762,
+          "conveyor_position_mm": 236051.17899252163
+        },
+        {
+          "timestamp": 1783432895.5368466,
+          "s1": -0.121,
+          "s2": 3.227,
+          "s3": -0.344,
+          "s4": 3.864,
+          "width_1": 203.2919,
+          "width_2": 203.79662,
+          "conveyor_position_mm": 236051.8348046943
+        },
+        {
+          "timestamp": 1783432895.5467968,
+          "s1": -0.112,
+          "s2": 3.065,
+          "s3": -0.306,
+          "s4": 3.816,
+          "width_1": 203.1389,
+          "width_2": 203.78662,
+          "conveyor_position_mm": 236052.490616867
+        },
+        {
+          "timestamp": 1783432895.556876,
+          "s1": -0.187,
+          "s2": 3.036,
+          "s3": -0.409,
+          "s4": 3.886,
+          "width_1": 203.0349,
+          "width_2": 203.75362,
+          "conveyor_position_mm": 236053.72454450445
+        },
+        {
+          "timestamp": 1783432895.5667858,
+          "s1": -0.195,
+          "s2": 3.132,
+          "s3": -0.426,
+          "s4": 3.956,
+          "width_1": 203.12290000000002,
+          "width_2": 203.80662,
+          "conveyor_position_mm": 236054.39840406654
+        },
+        {
+          "timestamp": 1783432895.5767426,
+          "s1": -0.146,
+          "s2": 3.223,
+          "s3": -0.317,
+          "s4": 3.888,
+          "width_1": 203.2629,
+          "width_2": 203.84762,
+          "conveyor_position_mm": 236055.07226362862
+        },
+        {
+          "timestamp": 1783432895.5867555,
+          "s1": -0.155,
+          "s2": 3.292,
+          "s3": -0.276,
+          "s4": 3.82,
+          "width_1": 203.3229,
+          "width_2": 203.82062000000002,
+          "conveyor_position_mm": 236055.7461231907
+        },
+        {
+          "timestamp": 1783432895.5967605,
+          "s1": -0.252,
+          "s2": 3.409,
+          "s3": -0.388,
+          "s4": 3.894,
+          "width_1": 203.3429,
+          "width_2": 203.78262,
+          "conveyor_position_mm": 236055.6672025966
+        },
+        {
+          "timestamp": 1783432895.607473,
+          "s1": -0.259,
+          "s2": 3.442,
+          "s3": -0.413,
+          "s4": 3.921,
+          "width_1": 203.3689,
+          "width_2": 203.78462000000002,
+          "conveyor_position_mm": 236056.33287335525
+        },
+        {
+          "timestamp": 1783432895.6180596,
+          "s1": -0.172,
+          "s2": 3.392,
+          "s3": -0.297,
+          "s4": 3.804,
+          "width_1": 203.4059,
+          "width_2": 203.78361999999998,
+          "conveyor_position_mm": 236056.99854411389
+        },
+        {
+          "timestamp": 1783432895.626857,
+          "s1": -0.139,
+          "s2": 3.358,
+          "s3": -0.255,
+          "s4": 3.783,
+          "width_1": 203.4049,
+          "width_2": 203.80462,
+          "conveyor_position_mm": 236056.99854411389
+        },
+        {
+          "timestamp": 1783432895.6368048,
+          "s1": -0.2,
+          "s2": 3.341,
+          "s3": -0.355,
+          "s4": 3.909,
+          "width_1": 203.32690000000002,
+          "width_2": 203.83062,
+          "conveyor_position_mm": 236058.34673099965
+        },
+        {
+          "timestamp": 1783432895.6468105,
+          "s1": -0.204,
+          "s2": 3.341,
+          "s3": -0.374,
+          "s4": 3.929,
+          "width_1": 203.3229,
+          "width_2": 203.83162,
+          "conveyor_position_mm": 236059.00209601643
+        },
+        {
+          "timestamp": 1783432895.656895,
+          "s1": -0.146,
+          "s2": 3.342,
+          "s3": -0.256,
+          "s4": 3.823,
+          "width_1": 203.38189999999997,
+          "width_2": 203.84362,
+          "conveyor_position_mm": 236059.6574610332
+        },
+        {
+          "timestamp": 1783432895.6668499,
+          "s1": -0.15,
+          "s2": 3.369,
+          "s3": -0.216,
+          "s4": 3.786,
+          "width_1": 203.4049,
+          "width_2": 203.84662,
+          "conveyor_position_mm": 236060.35637730188
+        },
+        {
+          "timestamp": 1783432895.6767826,
+          "s1": -0.25,
+          "s2": 3.405,
+          "s3": -0.347,
+          "s4": 3.884,
+          "width_1": 203.3409,
+          "width_2": 203.81362000000001,
+          "conveyor_position_mm": 236061.0201159537
+        },
+        {
+          "timestamp": 1783432895.6867373,
+          "s1": -0.264,
+          "s2": 3.39,
+          "s3": -0.407,
+          "s4": 3.917,
+          "width_1": 203.31189999999998,
+          "width_2": 203.78662,
+          "conveyor_position_mm": 236061.6838546055
+        },
+        {
+          "timestamp": 1783432895.6967754,
+          "s1": -0.166,
+          "s2": 3.339,
+          "s3": -0.301,
+          "s4": 3.844,
+          "width_1": 203.3589,
+          "width_2": 203.81962000000001,
+          "conveyor_position_mm": 236062.34759325732
+        },
+        {
+          "timestamp": 1783432895.7067757,
+          "s1": -0.127,
+          "s2": 3.345,
+          "s3": -0.258,
+          "s4": 3.814,
+          "width_1": 203.4039,
+          "width_2": 203.83262000000002,
+          "conveyor_position_mm": 236062.9689174948
+        },
+        {
+          "timestamp": 1783432895.7167227,
+          "s1": -0.214,
+          "s2": 3.407,
+          "s3": -0.354,
+          "s4": 3.862,
+          "width_1": 203.37890000000002,
+          "width_2": 203.78462000000002,
+          "conveyor_position_mm": 236063.62177374907
+        },
+        {
+          "timestamp": 1783432895.7276044,
+          "s1": -0.249,
+          "s2": 3.433,
+          "s3": -0.367,
+          "s4": 3.882,
+          "width_1": 203.3699,
+          "width_2": 203.79162,
+          "conveyor_position_mm": 236064.27463000332
+        },
+        {
+          "timestamp": 1783432895.7375524,
+          "s1": -0.183,
+          "s2": 3.401,
+          "s3": -0.268,
+          "s4": 3.789,
+          "width_1": 203.40390000000002,
+          "width_2": 203.79762,
+          "conveyor_position_mm": 236064.91157558697
+        },
+        {
+          "timestamp": 1783432895.7468011,
+          "s1": -0.164,
+          "s2": 3.395,
+          "s3": -0.289,
+          "s4": 3.783,
+          "width_1": 203.4169,
+          "width_2": 203.77062,
+          "conveyor_position_mm": 236065.57107117708
+        },
+        {
+          "timestamp": 1783432895.7568324,
+          "s1": -0.216,
+          "s2": 3.452,
+          "s3": -0.373,
+          "s4": 3.857,
+          "width_1": 203.4219,
+          "width_2": 203.76062,
+          "conveyor_position_mm": 236066.2305667672
+        },
+        {
+          "timestamp": 1783432895.7667701,
+          "s1": -0.252,
+          "s2": 3.515,
+          "s3": -0.421,
+          "s4": 3.922,
+          "width_1": 203.44889999999998,
+          "width_2": 203.77761999999998,
+          "conveyor_position_mm": 236066.8900623573
+        },
+        {
+          "timestamp": 1783432895.7768831,
+          "s1": -0.196,
+          "s2": 3.469,
+          "s3": -0.319,
+          "s4": 3.84,
+          "width_1": 203.4589,
+          "width_2": 203.79762,
+          "conveyor_position_mm": 236067.4571275698
+        },
+        {
+          "timestamp": 1783432895.7869005,
+          "s1": -0.198,
+          "s2": 3.468,
+          "s3": -0.266,
+          "s4": 3.788,
+          "width_1": 203.45589999999999,
+          "width_2": 203.79862,
+          "conveyor_position_mm": 236068.10535834858
+        },
+        {
+          "timestamp": 1783432895.7968295,
+          "s1": -0.258,
+          "s2": 3.533,
+          "s3": -0.326,
+          "s4": 3.871,
+          "width_1": 203.46089999999998,
+          "width_2": 203.82162,
+          "conveyor_position_mm": 236068.75358912736
+        },
+        {
+          "timestamp": 1783432895.8068416,
+          "s1": -0.275,
+          "s2": 3.549,
+          "s3": -0.352,
+          "s4": 3.939,
+          "width_1": 203.4599,
+          "width_2": 203.86362000000003,
+          "conveyor_position_mm": 236069.39978566198
+        },
+        {
+          "timestamp": 1783432895.8168185,
+          "s1": -0.208,
+          "s2": 3.513,
+          "s3": -0.277,
+          "s4": 3.872,
+          "width_1": 203.4909,
+          "width_2": 203.87162,
+          "conveyor_position_mm": 236070.0569456752
+        },
+        {
+          "timestamp": 1783432895.8269954,
+          "s1": -0.187,
+          "s2": 3.541,
+          "s3": -0.237,
+          "s4": 3.8,
+          "width_1": 203.5399,
+          "width_2": 203.83962,
+          "conveyor_position_mm": 236070.7141056884
+        },
+        {
+          "timestamp": 1783432895.8369884,
+          "s1": -0.276,
+          "s2": 3.682,
+          "s3": -0.355,
+          "s4": 3.847,
+          "width_1": 203.59189999999998,
+          "width_2": 203.76862,
+          "conveyor_position_mm": 236070.7141056884
+        },
+        {
+          "timestamp": 1783432895.8468485,
+          "s1": -0.285,
+          "s2": 3.697,
+          "s3": -0.406,
+          "s4": 3.862,
+          "width_1": 203.5979,
+          "width_2": 203.73262000000003,
+          "conveyor_position_mm": 236072.01232585494
+        },
+        {
+          "timestamp": 1783432895.856908,
+          "s1": -0.208,
+          "s2": 3.632,
+          "s3": -0.321,
+          "s4": 3.75,
+          "width_1": 203.6099,
+          "width_2": 203.70561999999998,
+          "conveyor_position_mm": 236072.6686490466
+        },
+        {
+          "timestamp": 1783432895.8671513,
+          "s1": -0.171,
+          "s2": 3.648,
+          "s3": -0.281,
+          "s4": 3.684,
+          "width_1": 203.6629,
+          "width_2": 203.67962,
+          "conveyor_position_mm": 236073.32497223825
+        },
+        {
+          "timestamp": 1783432895.8769622,
+          "s1": -0.241,
+          "s2": 3.771,
+          "s3": -0.375,
+          "s4": 3.756,
+          "width_1": 203.71589999999998,
+          "width_2": 203.65761999999998,
+          "conveyor_position_mm": 236072.68220795572
+        },
+        {
+          "timestamp": 1783432895.886962,
+          "s1": -0.275,
+          "s2": 3.796,
+          "s3": -0.388,
+          "s4": 3.81,
+          "width_1": 203.7069,
+          "width_2": 203.69862,
+          "conveyor_position_mm": 236074.55787783783
+        },
+        {
+          "timestamp": 1783432895.8968208,
+          "s1": -0.252,
+          "s2": 3.749,
+          "s3": -0.317,
+          "s4": 3.749,
+          "width_1": 203.6829,
+          "width_2": 203.70862,
+          "conveyor_position_mm": 236075.25422167662
+        },
+        {
+          "timestamp": 1783432895.9068027,
+          "s1": -0.212,
+          "s2": 3.725,
+          "s3": -0.263,
+          "s4": 3.658,
+          "width_1": 203.6989,
+          "width_2": 203.67162000000002,
+          "conveyor_position_mm": 236075.9505655154
+        },
+        {
+          "timestamp": 1783432895.916938,
+          "s1": -0.244,
+          "s2": 3.784,
+          "s3": -0.333,
+          "s4": 3.698,
+          "width_1": 203.7259,
+          "width_2": 203.64162,
+          "conveyor_position_mm": 236076.5675241401
+        },
+        {
+          "timestamp": 1783432895.9267802,
+          "s1": -0.258,
+          "s2": 3.787,
+          "s3": -0.335,
+          "s4": 3.74,
+          "width_1": 203.7149,
+          "width_2": 203.68162,
+          "conveyor_position_mm": 236077.2549504406
+        },
+        {
+          "timestamp": 1783432895.936761,
+          "s1": -0.198,
+          "s2": 3.713,
+          "s3": -0.285,
+          "s4": 3.689,
+          "width_1": 203.7009,
+          "width_2": 203.68062,
+          "conveyor_position_mm": 236077.94237674112
+        },
+        {
+          "timestamp": 1783432895.9467838,
+          "s1": -0.188,
+          "s2": 3.688,
+          "s3": -0.285,
+          "s4": 3.668,
+          "width_1": 203.68589999999998,
+          "width_2": 203.65962,
+          "conveyor_position_mm": 236078.62980304164
+        },
+        {
+          "timestamp": 1783432895.9567566,
+          "s1": -0.271,
+          "s2": 3.79,
+          "s3": -0.372,
+          "s4": 3.745,
+          "width_1": 203.70489999999998,
+          "width_2": 203.64962,
+          "conveyor_position_mm": 236079.18006433305
+        },
+        {
+          "timestamp": 1783432895.9667802,
+          "s1": -0.292,
+          "s2": 3.85,
+          "s3": -0.37,
+          "s4": 3.763,
+          "width_1": 203.7439,
+          "width_2": 203.66962,
+          "conveyor_position_mm": 236079.87589386012
+        },
+        {
+          "timestamp": 1783432895.9768033,
+          "s1": -0.274,
+          "s2": 3.828,
+          "s3": -0.294,
+          "s4": 3.7,
+          "width_1": 203.7399,
+          "width_2": 203.68262000000001,
+          "conveyor_position_mm": 236080.5717233872
+        },
+        {
+          "timestamp": 1783432895.9871144,
+          "s1": -0.268,
+          "s2": 3.8,
+          "s3": -0.237,
+          "s4": 3.649,
+          "width_1": 203.71790000000001,
+          "width_2": 203.68862,
+          "conveyor_position_mm": 236081.12272242527
+        },
+        {
+          "timestamp": 1783432895.9969063,
+          "s1": -0.325,
+          "s2": 3.819,
+          "s3": -0.324,
+          "s4": 3.667,
+          "width_1": 203.6799,
+          "width_2": 203.61962,
+          "conveyor_position_mm": 236081.8073058016
+        },
+        {
+          "timestamp": 1783432896.006773,
+          "s1": -0.346,
+          "s2": 3.782,
+          "s3": -0.384,
+          "s4": 3.648,
+          "width_1": 203.6219,
+          "width_2": 203.54062,
+          "conveyor_position_mm": 236082.49188917794
+        },
+        {
+          "timestamp": 1783432896.0167773,
+          "s1": -0.322,
+          "s2": 3.73,
+          "s3": -0.353,
+          "s4": 3.589,
+          "width_1": 203.5939,
+          "width_2": 203.51262,
+          "conveyor_position_mm": 236083.17647255427
+        },
+        {
+          "timestamp": 1783432896.026966,
+          "s1": -0.457,
+          "s2": 3.741,
+          "s3": -0.329,
+          "s4": 3.58,
+          "width_1": 203.4699,
+          "width_2": 203.52762,
+          "conveyor_position_mm": 236083.73526261817
+        },
+        {
+          "timestamp": 1783432896.0368755,
+          "s1": -0.754,
+          "s2": 3.789,
+          "s3": -0.418,
+          "s4": 3.679,
+          "width_1": 203.2209,
+          "width_2": 203.53762,
+          "conveyor_position_mm": 236084.42907725336
+        },
+        {
+          "timestamp": 1783432896.0467696,
+          "s1": -1.015,
+          "s2": 3.771,
+          "s3": -0.468,
+          "s4": 3.739,
+          "width_1": 202.94189999999998,
+          "width_2": 203.54762,
+          "conveyor_position_mm": 236085.12289188855
+        },
+        {
+          "timestamp": 1783432896.0567646,
+          "s1": -1.092,
+          "s2": 3.734,
+          "s3": -0.409,
+          "s4": 3.683,
+          "width_1": 202.8279,
+          "width_2": 203.55062,
+          "conveyor_position_mm": 236085.61093250025
+        },
+        {
+          "timestamp": 1783432896.0667872,
+          "s1": -1.2,
+          "s2": 3.689,
+          "s3": -0.353,
+          "s4": 3.597,
+          "width_1": 202.6749,
+          "width_2": 203.52062,
+          "conveyor_position_mm": 236086.30336216217
+        },
+        {
+          "timestamp": 1783432896.076728,
+          "s1": -1.079,
+          "s2": 3.764,
+          "s3": -0.424,
+          "s4": 3.651,
+          "width_1": 202.8709,
+          "width_2": 203.50362,
+          "conveyor_position_mm": 236086.9957918241
+        },
+        {
+          "timestamp": 1783432896.0867333,
+          "s1": -0.591,
+          "s2": 3.828,
+          "s3": -0.481,
+          "s4": 3.714,
+          "width_1": 203.4229,
+          "width_2": 203.50961999999998,
+          "conveyor_position_mm": 236087.68822148602
+        },
+        {
+          "timestamp": 1783432896.0983229,
+          "s1": -0.365,
+          "s2": 3.798,
+          "s3": -0.428,
+          "s4": 3.653,
+          "width_1": 203.6189,
+          "width_2": 203.50162,
+          "conveyor_position_mm": 236088.1564844831
+        },
+        {
+          "timestamp": 1783432896.1085732,
+          "s1": -0.262,
+          "s2": 3.77,
+          "s3": -0.39,
+          "s4": 3.55,
+          "width_1": 203.6939,
+          "width_2": 203.43662,
+          "conveyor_position_mm": 236088.84946503665
+        },
+        {
+          "timestamp": 1783432896.1168094,
+          "s1": -0.3,
+          "s2": 3.823,
+          "s3": -0.466,
+          "s4": 3.62,
+          "width_1": 203.7089,
+          "width_2": 203.43062,
+          "conveyor_position_mm": 236089.5424455902
+        },
+        {
+          "timestamp": 1783432896.1268122,
+          "s1": -0.312,
+          "s2": 3.836,
+          "s3": -0.519,
+          "s4": 3.685,
+          "width_1": 203.7099,
+          "width_2": 203.44262,
+          "conveyor_position_mm": 236090.16613078534
+        },
+        {
+          "timestamp": 1783432896.136812,
+          "s1": -0.25,
+          "s2": 3.759,
+          "s3": -0.506,
+          "s4": 3.592,
+          "width_1": 203.6949,
+          "width_2": 203.36262,
+          "conveyor_position_mm": 236090.8591119589
+        },
+        {
+          "timestamp": 1783432896.1469007,
+          "s1": -0.207,
+          "s2": 3.745,
+          "s3": -0.508,
+          "s4": 3.528,
+          "width_1": 203.72390000000001,
+          "width_2": 203.29662000000002,
+          "conveyor_position_mm": 236091.5520931325
+        },
+        {
+          "timestamp": 1783432896.156908,
+          "s1": -0.192,
+          "s2": 3.829,
+          "s3": -0.578,
+          "s4": 3.635,
+          "width_1": 203.8229,
+          "width_2": 203.33362,
+          "conveyor_position_mm": 236091.5520931325
+        },
+        {
+          "timestamp": 1783432896.1667838,
+          "s1": -0.201,
+          "s2": 3.828,
+          "s3": -0.562,
+          "s4": 3.688,
+          "width_1": 203.8129,
+          "width_2": 203.40262,
+          "conveyor_position_mm": 236092.84565918834
+        },
+        {
+          "timestamp": 1783432896.17674,
+          "s1": -0.182,
+          "s2": 3.787,
+          "s3": -0.49,
+          "s4": 3.644,
+          "width_1": 203.7909,
+          "width_2": 203.43062,
+          "conveyor_position_mm": 236093.54103318776
+        },
+        {
+          "timestamp": 1783432896.1867623,
+          "s1": -0.162,
+          "s2": 3.78,
+          "s3": -0.454,
+          "s4": 3.617,
+          "width_1": 203.8039,
+          "width_2": 203.43962000000002,
+          "conveyor_position_mm": 236094.23640718719
+        },
+        {
+          "timestamp": 1783432896.1967683,
+          "s1": -0.189,
+          "s2": 3.825,
+          "s3": -0.523,
+          "s4": 3.653,
+          "width_1": 203.8219,
+          "width_2": 203.40662,
+          "conveyor_position_mm": 236094.9317811866
+        },
+        {
+          "timestamp": 1783432896.2067597,
+          "s1": -0.191,
+          "s2": 3.823,
+          "s3": -0.563,
+          "s4": 3.666,
+          "width_1": 203.8179,
+          "width_2": 203.37962,
+          "conveyor_position_mm": 236095.39121117117
+        },
+        {
+          "timestamp": 1783432896.2176251,
+          "s1": -0.128,
+          "s2": 3.754,
+          "s3": -0.474,
+          "s4": 3.587,
+          "width_1": 203.81189999999998,
+          "width_2": 203.38962,
+          "conveyor_position_mm": 236096.0847191931
+        },
+        {
+          "timestamp": 1783432896.2269897,
+          "s1": -0.101,
+          "s2": 3.735,
+          "s3": -0.44,
+          "s4": 3.568,
+          "width_1": 203.8199,
+          "width_2": 203.40462,
+          "conveyor_position_mm": 236096.77822721505
+        },
+        {
+          "timestamp": 1783432896.236791,
+          "s1": -0.13,
+          "s2": 3.781,
+          "s3": -0.484,
+          "s4": 3.611,
+          "width_1": 203.8369,
+          "width_2": 203.40362000000002,
+          "conveyor_position_mm": 236097.33386926336
+        },
+        {
+          "timestamp": 1783432896.2467914,
+          "s1": -0.178,
+          "s2": 3.787,
+          "s3": -0.526,
+          "s4": 3.634,
+          "width_1": 203.7949,
+          "width_2": 203.38462,
+          "conveyor_position_mm": 236098.0174138197
+        },
+        {
+          "timestamp": 1783432896.2567775,
+          "s1": -0.132,
+          "s2": 3.725,
+          "s3": -0.471,
+          "s4": 3.579,
+          "width_1": 203.7789,
+          "width_2": 203.38462,
+          "conveyor_position_mm": 236098.70095837605
+        },
+        {
+          "timestamp": 1783432896.2668178,
+          "s1": -0.082,
+          "s2": 3.705,
+          "s3": -0.464,
+          "s4": 3.563,
+          "width_1": 203.8089,
+          "width_2": 203.37562,
+          "conveyor_position_mm": 236098.70095837605
+        },
+        {
+          "timestamp": 1783432896.2768347,
+          "s1": -0.091,
+          "s2": 3.763,
+          "s3": -0.521,
+          "s4": 3.623,
+          "width_1": 203.8579,
+          "width_2": 203.37862,
+          "conveyor_position_mm": 236099.94640945626
+        },
+        {
+          "timestamp": 1783432896.286765,
+          "s1": -0.129,
+          "s2": 3.755,
+          "s3": -0.52,
+          "s4": 3.61,
+          "width_1": 203.8119,
+          "width_2": 203.36662,
+          "conveyor_position_mm": 236100.63827947737
+        },
+        {
+          "timestamp": 1783432896.2967637,
+          "s1": -0.121,
+          "s2": 3.693,
+          "s3": -0.463,
+          "s4": 3.545,
+          "width_1": 203.7579,
+          "width_2": 203.35862,
+          "conveyor_position_mm": 236101.33014949848
+        },
+        {
+          "timestamp": 1783432896.3067605,
+          "s1": -0.091,
+          "s2": 3.636,
+          "s3": -0.444,
+          "s4": 3.497,
+          "width_1": 203.7309,
+          "width_2": 203.32962,
+          "conveyor_position_mm": 236101.8890675484
+        },
+        {
+          "timestamp": 1783432896.3167558,
+          "s1": -0.074,
+          "s2": 3.669,
+          "s3": -0.508,
+          "s4": 3.563,
+          "width_1": 203.7809,
+          "width_2": 203.33162000000002,
+          "conveyor_position_mm": 236102.57983911518
+        },
+        {
+          "timestamp": 1783432896.3267531,
+          "s1": -0.016,
+          "s2": 3.666,
+          "s3": -0.533,
+          "s4": 3.651,
+          "width_1": 203.8359,
+          "width_2": 203.39462,
+          "conveyor_position_mm": 236103.27061068194
+        },
+        {
+          "timestamp": 1783432896.3375833,
+          "s1": 0.036,
+          "s2": 3.637,
+          "s3": -0.455,
+          "s4": 3.606,
+          "width_1": 203.8589,
+          "width_2": 203.42762000000002,
+          "conveyor_position_mm": 236103.27061068194
+        },
+        {
+          "timestamp": 1783432896.3467956,
+          "s1": 0.062,
+          "s2": 3.622,
+          "s3": -0.403,
+          "s4": 3.535,
+          "width_1": 203.86989999999997,
+          "width_2": 203.40861999999998,
+          "conveyor_position_mm": 236104.50160774137
+        },
+        {
+          "timestamp": 1783432896.356808,
+          "s1": 0.025,
+          "s2": 3.662,
+          "s3": -0.492,
+          "s4": 3.581,
+          "width_1": 203.87290000000002,
+          "width_2": 203.36562,
+          "conveyor_position_mm": 236105.19153882476
+        },
+        {
+          "timestamp": 1783432896.366889,
+          "s1": 0.031,
+          "s2": 3.683,
+          "s3": -0.521,
+          "s4": 3.63,
+          "width_1": 203.8999,
+          "width_2": 203.38562000000002,
+          "conveyor_position_mm": 236105.88146990814
+        },
+        {
+          "timestamp": 1783432896.3768837,
+          "s1": 0.09,
+          "s2": 3.643,
+          "s3": -0.469,
+          "s4": 3.609,
+          "width_1": 203.9189,
+          "width_2": 203.41662,
+          "conveyor_position_mm": 236106.44426583353
+        },
+        {
+          "timestamp": 1783432896.386826,
+          "s1": 0.142,
+          "s2": 3.611,
+          "s3": -0.429,
+          "s4": 3.574,
+          "width_1": 203.9389,
+          "width_2": 203.42162,
+          "conveyor_position_mm": 236107.13390234174
+        },
+        {
+          "timestamp": 1783432896.3969207,
+          "s1": 0.127,
+          "s2": 3.642,
+          "s3": -0.473,
+          "s4": 3.59,
+          "width_1": 203.9549,
+          "width_2": 203.39362,
+          "conveyor_position_mm": 236107.82353884995
+        },
+        {
+          "timestamp": 1783432896.406824,
+          "s1": 0.138,
+          "s2": 3.676,
+          "s3": -0.501,
+          "s4": 3.595,
+          "width_1": 203.9999,
+          "width_2": 203.37062,
+          "conveyor_position_mm": 236107.82353884995
+        },
+        {
+          "timestamp": 1783432896.4168222,
+          "s1": 0.213,
+          "s2": 3.631,
+          "s3": -0.451,
+          "s4": 3.576,
+          "width_1": 204.0299,
+          "width_2": 203.40162,
+          "conveyor_position_mm": 236109.05680602643
+        },
+        {
+          "timestamp": 1783432896.4269996,
+          "s1": 0.268,
+          "s2": 3.56,
+          "s3": -0.417,
+          "s4": 3.57,
+          "width_1": 204.0139,
+          "width_2": 203.42962,
+          "conveyor_position_mm": 236109.7473474879
+        },
+        {
+          "timestamp": 1783432896.436843,
+          "s1": 0.216,
+          "s2": 3.593,
+          "s3": -0.465,
+          "s4": 3.587,
+          "width_1": 203.9949,
+          "width_2": 203.39862,
+          "conveyor_position_mm": 236110.43788894935
+        },
+        {
+          "timestamp": 1783432896.4468055,
+          "s1": 0.152,
+          "s2": 3.627,
+          "s3": -0.513,
+          "s4": 3.581,
+          "width_1": 203.9649,
+          "width_2": 203.34462000000002,
+          "conveyor_position_mm": 236110.9994641186
+        },
+        {
+          "timestamp": 1783432896.4568381,
+          "s1": 0.182,
+          "s2": 3.569,
+          "s3": -0.447,
+          "s4": 3.555,
+          "width_1": 203.93689999999998,
+          "width_2": 203.38461999999998,
+          "conveyor_position_mm": 236111.69009761137
+        },
+        {
+          "timestamp": 1783432896.466941,
+          "s1": 0.19,
+          "s2": 3.503,
+          "s3": -0.367,
+          "s4": 3.521,
+          "width_1": 203.8789,
+          "width_2": 203.43062,
+          "conveyor_position_mm": 236112.38073110415
+        },
+        {
+          "timestamp": 1783432896.4774182,
+          "s1": 0.117,
+          "s2": 3.54,
+          "s3": -0.412,
+          "s4": 3.536,
+          "width_1": 203.8429,
+          "width_2": 203.40062,
+          "conveyor_position_mm": 236112.38073110415
+        },
+        {
+          "timestamp": 1783432896.4868972,
+          "s1": 0.086,
+          "s2": 3.508,
+          "s3": -0.465,
+          "s4": 3.554,
+          "width_1": 203.7799,
+          "width_2": 203.36561999999998,
+          "conveyor_position_mm": 236113.6789925216
+        },
+        {
+          "timestamp": 1783432896.4968283,
+          "s1": 0.185,
+          "s2": 3.393,
+          "s3": -0.397,
+          "s4": 3.486,
+          "width_1": 203.7639,
+          "width_2": 203.36562,
+          "conveyor_position_mm": 236114.37073828853
+        },
+        {
+          "timestamp": 1783432896.5068073,
+          "s1": 0.255,
+          "s2": 3.347,
+          "s3": -0.353,
+          "s4": 3.462,
+          "width_1": 203.7879,
+          "width_2": 203.38562000000002,
+          "conveyor_position_mm": 236115.06248405547
+        },
+        {
+          "timestamp": 1783432896.5167582,
+          "s1": 0.236,
+          "s2": 3.419,
+          "s3": -0.406,
+          "s4": 3.528,
+          "width_1": 203.8409,
+          "width_2": 203.39862000000002,
+          "conveyor_position_mm": 236115.7542298224
+        },
+        {
+          "timestamp": 1783432896.526877,
+          "s1": 0.2,
+          "s2": 3.505,
+          "s3": -0.469,
+          "s4": 3.558,
+          "width_1": 203.8909,
+          "width_2": 203.36562,
+          "conveyor_position_mm": 236116.22454450442
+        },
+        {
+          "timestamp": 1783432896.5367708,
+          "s1": 0.25,
+          "s2": 3.436,
+          "s3": -0.405,
+          "s4": 3.461,
+          "width_1": 203.8719,
+          "width_2": 203.33262,
+          "conveyor_position_mm": 236116.9154583342
+        },
+        {
+          "timestamp": 1783432896.546754,
+          "s1": 0.279,
+          "s2": 3.386,
+          "s3": -0.37,
+          "s4": 3.45,
+          "width_1": 203.8509,
+          "width_2": 203.35662000000002,
+          "conveyor_position_mm": 236117.60637216398
+        },
+        {
+          "timestamp": 1783432896.5567288,
+          "s1": 0.247,
+          "s2": 3.438,
+          "s3": -0.415,
+          "s4": 3.54,
+          "width_1": 203.87089999999998,
+          "width_2": 203.40162,
+          "conveyor_position_mm": 236118.2341908067
+        },
+        {
+          "timestamp": 1783432896.5667408,
+          "s1": 0.219,
+          "s2": 3.451,
+          "s3": -0.452,
+          "s4": 3.594,
+          "width_1": 203.8559,
+          "width_2": 203.41862,
+          "conveyor_position_mm": 236118.94745098567
+        },
+        {
+          "timestamp": 1783432896.5767314,
+          "s1": 0.253,
+          "s2": 3.329,
+          "s3": -0.387,
+          "s4": 3.566,
+          "width_1": 203.7679,
+          "width_2": 203.45561999999998,
+          "conveyor_position_mm": 236119.66071116464
+        },
+        {
+          "timestamp": 1783432896.587354,
+          "s1": 0.291,
+          "s2": 3.256,
+          "s3": -0.359,
+          "s4": 3.524,
+          "width_1": 203.7329,
+          "width_2": 203.44162,
+          "conveyor_position_mm": 236120.37397134362
+        },
+        {
+          "timestamp": 1783432896.5974221,
+          "s1": 0.302,
+          "s2": 3.272,
+          "s3": -0.421,
+          "s4": 3.545,
+          "width_1": 203.7599,
+          "width_2": 203.40062,
+          "conveyor_position_mm": 236120.8467309996
+        },
+        {
+          "timestamp": 1783432896.606786,
+          "s1": 0.267,
+          "s2": 3.318,
+          "s3": -0.514,
+          "s4": 3.584,
+          "width_1": 203.7709,
+          "width_2": 203.34662,
+          "conveyor_position_mm": 236121.49870098813
+        },
+        {
+          "timestamp": 1783432896.6167696,
+          "s1": 0.335,
+          "s2": 3.309,
+          "s3": -0.563,
+          "s4": 3.57,
+          "width_1": 203.8299,
+          "width_2": 203.28362,
+          "conveyor_position_mm": 236122.15067097667
+        },
+        {
+          "timestamp": 1783432896.6267755,
+          "s1": 0.378,
+          "s2": 3.265,
+          "s3": -0.51,
+          "s4": 3.533,
+          "width_1": 203.82889999999998,
+          "width_2": 203.29962,
+          "conveyor_position_mm": 236122.78938909175
+        },
+        {
+          "timestamp": 1783432896.6368752,
+          "s1": 0.285,
+          "s2": 3.264,
+          "s3": -0.431,
+          "s4": 3.584,
+          "width_1": 203.7349,
+          "width_2": 203.42962,
+          "conveyor_position_mm": 236123.4403105065
+        },
+        {
+          "timestamp": 1783432896.646768,
+          "s1": 0.201,
+          "s2": 3.287,
+          "s3": -0.424,
+          "s4": 3.626,
+          "width_1": 203.6739,
+          "width_2": 203.47862,
+          "conveyor_position_mm": 236124.09123192125
+        },
+        {
+          "timestamp": 1783432896.6567612,
+          "s1": 0.24,
+          "s2": 3.264,
+          "s3": -0.352,
+          "s4": 3.577,
+          "width_1": 203.68990000000002,
+          "width_2": 203.50162,
+          "conveyor_position_mm": 236124.742153336
+        },
+        {
+          "timestamp": 1783432896.6667545,
+          "s1": 0.324,
+          "s2": 3.206,
+          "s3": -0.324,
+          "s4": 3.524,
+          "width_1": 203.71589999999998,
+          "width_2": 203.47662,
+          "conveyor_position_mm": 236125.4689174947
+        },
+        {
+          "timestamp": 1783432896.6767614,
+          "s1": 0.287,
+          "s2": 3.235,
+          "s3": -0.404,
+          "s4": 3.595,
+          "width_1": 203.7079,
+          "width_2": 203.46761999999998,
+          "conveyor_position_mm": 236126.1206678034
+        },
+        {
+          "timestamp": 1783432896.6867466,
+          "s1": 0.278,
+          "s2": 3.283,
+          "s3": -0.418,
+          "s4": 3.64,
+          "width_1": 203.74689999999998,
+          "width_2": 203.49862000000002,
+          "conveyor_position_mm": 236126.7724181121
+        },
+        {
+          "timestamp": 1783432896.6967444,
+          "s1": 0.371,
+          "s2": 3.236,
+          "s3": -0.312,
+          "s4": 3.598,
+          "width_1": 203.7929,
+          "width_2": 203.56262,
+          "conveyor_position_mm": 236127.41157558686
+        },
+        {
+          "timestamp": 1783432896.7088683,
+          "s1": 0.374,
+          "s2": 3.2,
+          "s3": -0.285,
+          "s4": 3.571,
+          "width_1": 203.7599,
+          "width_2": 203.56261999999998,
+          "conveyor_position_mm": 236128.0633795121
+        },
+        {
+          "timestamp": 1783432896.717011,
+          "s1": 0.331,
+          "s2": 3.21,
+          "s3": -0.326,
+          "s4": 3.612,
+          "width_1": 203.7269,
+          "width_2": 203.56262,
+          "conveyor_position_mm": 236128.71518343737
+        },
+        {
+          "timestamp": 1783432896.7267978,
+          "s1": 0.282,
+          "s2": 3.25,
+          "s3": -0.367,
+          "s4": 3.702,
+          "width_1": 203.71790000000001,
+          "width_2": 203.61162,
+          "conveyor_position_mm": 236128.71518343737
+        },
+        {
+          "timestamp": 1783432896.7368383,
+          "s1": 0.304,
+          "s2": 3.23,
+          "s3": -0.289,
+          "s4": 3.658,
+          "width_1": 203.7199,
+          "width_2": 203.64562,
+          "conveyor_position_mm": 236130.0241157798
+        },
+        {
+          "timestamp": 1783432896.7467768,
+          "s1": 0.33,
+          "s2": 3.21,
+          "s3": -0.238,
+          "s4": 3.612,
+          "width_1": 203.7259,
+          "width_2": 203.65062,
+          "conveyor_position_mm": 236130.67588297688
+        },
+        {
+          "timestamp": 1783432896.7568595,
+          "s1": 0.352,
+          "s2": 3.227,
+          "s3": -0.281,
+          "s4": 3.61,
+          "width_1": 203.7649,
+          "width_2": 203.60562000000002,
+          "conveyor_position_mm": 236131.32765017397
+        },
+        {
+          "timestamp": 1783432896.76676,
+          "s1": 0.344,
+          "s2": 3.236,
+          "s3": -0.326,
+          "s4": 3.616,
+          "width_1": 203.7659,
+          "width_2": 203.56662,
+          "conveyor_position_mm": 236131.32765017397
+        },
+        {
+          "timestamp": 1783432896.7767813,
+          "s1": 0.411,
+          "s2": 3.178,
+          "s3": -0.26,
+          "s4": 3.558,
+          "width_1": 203.7749,
+          "width_2": 203.57462,
+          "conveyor_position_mm": 236132.03376208205
+        },
+        {
+          "timestamp": 1783432896.7867515,
+          "s1": 0.444,
+          "s2": 3.142,
+          "s3": -0.232,
+          "s4": 3.534,
+          "width_1": 203.7719,
+          "width_2": 203.57862,
+          "conveyor_position_mm": 236132.679380157
+        },
+        {
+          "timestamp": 1783432896.7967098,
+          "s1": 0.377,
+          "s2": 3.17,
+          "s3": -0.268,
+          "s4": 3.626,
+          "width_1": 203.7329,
+          "width_2": 203.63461999999998,
+          "conveyor_position_mm": 236133.32499823195
+        },
+        {
+          "timestamp": 1783432896.806748,
+          "s1": 0.324,
+          "s2": 3.19,
+          "s3": -0.262,
+          "s4": 3.696,
+          "width_1": 203.69989999999999,
+          "width_2": 203.71061999999998,
+          "conveyor_position_mm": 236134.64630227498
+        },
+        {
+          "timestamp": 1783432896.8167593,
+          "s1": 0.372,
+          "s2": 3.128,
+          "s3": -0.181,
+          "s4": 3.646,
+          "width_1": 203.68589999999998,
+          "width_2": 203.74162,
+          "conveyor_position_mm": 236135.30365583886
+        },
+        {
+          "timestamp": 1783432896.828125,
+          "s1": 0.389,
+          "s2": 3.107,
+          "s3": -0.15,
+          "s4": 3.605,
+          "width_1": 203.6819,
+          "width_2": 203.73162000000002,
+          "conveyor_position_mm": 236135.96100940273
+        },
+        {
+          "timestamp": 1783432896.8367832,
+          "s1": 0.333,
+          "s2": 3.147,
+          "s3": -0.214,
+          "s4": 3.645,
+          "width_1": 203.6659,
+          "width_2": 203.70762,
+          "conveyor_position_mm": 236135.96100940273
+        },
+        {
+          "timestamp": 1783432896.8467615,
+          "s1": 0.29,
+          "s2": 3.104,
+          "s3": -0.261,
+          "s4": 3.666,
+          "width_1": 203.5799,
+          "width_2": 203.68161999999998,
+          "conveyor_position_mm": 236137.25884246788
+        },
+        {
+          "timestamp": 1783432896.8568902,
+          "s1": 0.335,
+          "s2": 2.93,
+          "s3": -0.182,
+          "s4": 3.667,
+          "width_1": 203.45090000000002,
+          "width_2": 203.76162,
+          "conveyor_position_mm": 236137.91534991047
+        },
+        {
+          "timestamp": 1783432896.8668158,
+          "s1": 0.361,
+          "s2": 2.948,
+          "s3": -0.14,
+          "s4": 3.687,
+          "width_1": 203.4949,
+          "width_2": 203.82362,
+          "conveyor_position_mm": 236138.57185735306
+        },
+        {
+          "timestamp": 1783432896.8768716,
+          "s1": 0.342,
+          "s2": 3.048,
+          "s3": -0.171,
+          "s4": 3.719,
+          "width_1": 203.5759,
+          "width_2": 203.82462,
+          "conveyor_position_mm": 236139.20150056004
+        },
+        {
+          "timestamp": 1783432896.8867378,
+          "s1": 0.278,
+          "s2": 3.107,
+          "s3": -0.252,
+          "s4": 3.762,
+          "width_1": 203.5709,
+          "width_2": 203.78662,
+          "conveyor_position_mm": 236139.85688654252
+        },
+        {
+          "timestamp": 1783432896.8967743,
+          "s1": 0.279,
+          "s2": 3.031,
+          "s3": -0.189,
+          "s4": 3.721,
+          "width_1": 203.4959,
+          "width_2": 203.80862,
+          "conveyor_position_mm": 236140.512272525
+        },
+        {
+          "timestamp": 1783432896.9067132,
+          "s1": 0.306,
+          "s2": 2.984,
+          "s3": -0.13,
+          "s4": 3.709,
+          "width_1": 203.4759,
+          "width_2": 203.85562,
+          "conveyor_position_mm": 236141.16765850747
+        },
+        {
+          "timestamp": 1783432896.916717,
+          "s1": 0.323,
+          "s2": 2.987,
+          "s3": -0.143,
+          "s4": 3.745,
+          "width_1": 203.4959,
+          "width_2": 203.87861999999998,
+          "conveyor_position_mm": 236141.814040753
+        },
+        {
+          "timestamp": 1783432896.9267354,
+          "s1": 0.33,
+          "s2": 2.984,
+          "s3": -0.186,
+          "s4": 3.812,
+          "width_1": 203.4999,
+          "width_2": 203.90262,
+          "conveyor_position_mm": 236142.47026865365
+        },
+        {
+          "timestamp": 1783432896.9367208,
+          "s1": 0.387,
+          "s2": 2.939,
+          "s3": -0.121,
+          "s4": 3.793,
+          "width_1": 203.5119,
+          "width_2": 203.94862,
+          "conveyor_position_mm": 236143.1264965543
+        },
+        {
+          "timestamp": 1783432896.948071,
+          "s1": 0.405,
+          "s2": 2.894,
+          "s3": -0.091,
+          "s4": 3.753,
+          "width_1": 203.4849,
+          "width_2": 203.93862000000001,
+          "conveyor_position_mm": 236143.75669884516
+        },
+        {
+          "timestamp": 1783432896.956754,
+          "s1": 0.329,
+          "s2": 2.919,
+          "s3": -0.169,
+          "s4": 3.787,
+          "width_1": 203.43390000000002,
+          "width_2": 203.89462,
+          "conveyor_position_mm": 236144.41235072538
+        },
+        {
+          "timestamp": 1783432896.9667711,
+          "s1": 0.274,
+          "s2": 2.952,
+          "s3": -0.198,
+          "s4": 3.827,
+          "width_1": 203.4119,
+          "width_2": 203.90562,
+          "conveyor_position_mm": 236145.0680026056
+        },
+        {
+          "timestamp": 1783432896.9768367,
+          "s1": 0.307,
+          "s2": 2.889,
+          "s3": -0.099,
+          "s4": 3.796,
+          "width_1": 203.3819,
+          "width_2": 203.97362,
+          "conveyor_position_mm": 236145.72365448583
+        },
+        {
+          "timestamp": 1783432896.986954,
+          "s1": 0.324,
+          "s2": 2.843,
+          "s3": -0.041,
+          "s4": 3.777,
+          "width_1": 203.35289999999998,
+          "width_2": 204.01262,
+          "conveyor_position_mm": 236146.43622724814
+        },
+        {
+          "timestamp": 1783432896.9969459,
+          "s1": 0.29,
+          "s2": 2.883,
+          "s3": -0.036,
+          "s4": 3.823,
+          "width_1": 203.3589,
+          "width_2": 204.06362,
+          "conveyor_position_mm": 236147.09310576727
+        },
+        {
+          "timestamp": 1783432897.0067723,
+          "s1": 0.246,
+          "s2": 2.915,
+          "s3": -0.053,
+          "s4": 3.848,
+          "width_1": 203.3469,
+          "width_2": 204.07162,
+          "conveyor_position_mm": 236147.7499842864
+        },
+        {
+          "timestamp": 1783432897.0167842,
+          "s1": 0.246,
+          "s2": 2.878,
+          "s3": -0.01,
+          "s4": 3.839,
+          "width_1": 203.3099,
+          "width_2": 204.10562,
+          "conveyor_position_mm": 236148.40686280554
+        },
+        {
+          "timestamp": 1783432897.0268424,
+          "s1": 0.252,
+          "s2": 2.861,
+          "s3": -0.003,
+          "s4": 3.83,
+          "width_1": 203.2989,
+          "width_2": 204.10362,
+          "conveyor_position_mm": 236148.4458735504
+        },
+        {
+          "timestamp": 1783432897.036808,
+          "s1": 0.178,
+          "s2": 2.883,
+          "s3": -0.053,
+          "s4": 3.84,
+          "width_1": 203.2469,
+          "width_2": 204.06362,
+          "conveyor_position_mm": 236149.0955372312
+        },
+        {
+          "timestamp": 1783432897.0469754,
+          "s1": 0.121,
+          "s2": 2.88,
+          "s3": -0.084,
+          "s4": 3.858,
+          "width_1": 203.1869,
+          "width_2": 204.05061999999998,
+          "conveyor_position_mm": 236149.74520091197
+        },
+        {
+          "timestamp": 1783432897.0570438,
+          "s1": 0.062,
+          "s2": 2.819,
+          "s3": -0.088,
+          "s4": 3.824,
+          "width_1": 203.06689999999998,
+          "width_2": 204.01262,
+          "conveyor_position_mm": 236151.05841374333
+        },
+        {
+          "timestamp": 1783432897.067053,
+          "s1": -0.079,
+          "s2": 2.772,
+          "s3": -0.154,
+          "s4": 3.815,
+          "width_1": 202.8789,
+          "width_2": 203.93761999999998,
+          "conveyor_position_mm": 236151.71893342678
+        },
+        {
+          "timestamp": 1783432897.0775127,
+          "s1": -0.355,
+          "s2": 2.525,
+          "s3": -0.342,
+          "s4": 3.848,
+          "width_1": 202.35590000000002,
+          "width_2": 203.78262,
+          "conveyor_position_mm": 236152.37945311022
+        },
+        {
+          "timestamp": 1783432897.086866,
+          "s1": -0.728,
+          "s2": 1.992,
+          "s3": -0.534,
+          "s4": 3.868,
+          "width_1": 201.44989999999999,
+          "width_2": 203.61061999999998,
+          "conveyor_position_mm": 236152.37945311022
+        },
+        {
+          "timestamp": 1783432897.097116,
+          "s1": -1.176,
+          "s2": 1.136,
+          "s3": -16.671,
+          "s4": 3.586,
+          "width_1": 200.14589999999998,
+          "width_2": 187.19162,
+          "conveyor_position_mm": 236153.00107183552
+        },
+        {
+          "timestamp": 1783432897.1087325,
+          "s1": null,
+          "s2": 0.798,
+          "s3": null,
+          "s4": 3.226,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236153.65346055603
+        },
+        {
+          "timestamp": 1783432897.1173737,
+          "s1": null,
+          "s2": 0.614,
+          "s3": null,
+          "s4": 2.778,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236153.65346055603
+        },
+        {
+          "timestamp": 1783432897.1275651,
+          "s1": null,
+          "s2": -5.772,
+          "s3": null,
+          "s4": null,
+          "width_1": null,
+          "width_2": null,
+          "conveyor_position_mm": 236155.61361202848
+        }
+      ]
+    }
+  ]
+}
